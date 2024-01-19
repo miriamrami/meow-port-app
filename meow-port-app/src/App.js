@@ -2,6 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import Home from "./Home.js";
 import AboutMe from "./AboutMe.js";
+import Projects from "./Projects.js";
 
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
             <Route
               exact path="/AboutMe.js"
               element={<AboutMe/>}
+            />
+            <Route
+              exact path="/Projects.js"
+              element={<Projects/>}
             />
 
             <Route

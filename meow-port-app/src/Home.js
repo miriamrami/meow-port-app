@@ -13,11 +13,11 @@ const Home = () => {
 				</li>
 				<li>
 					{/* Endpoint to route to About component */}
-					<Link to="/about">About Me</Link>
+					<Link to="/AboutMe.js">About Me</Link>
 				</li>
 				<li>
-					{/* Endpoint to route to ------ component */}
-					<Link to="/contactus">Projects</Link>
+					{/* Endpoint to route to Project component */}
+					<Link to="/Projects.js">Projects</Link>
 				</li>
 			</ul>
 		</div>

@@ -1,8 +1,6 @@
-// App.jsx
-
 import React from "react";
 
-const About = () => {
+const AboutMe = () => {
 	return (
 		<div>
 			<h1>About Me</h1>
@@ -10,4 +8,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default AboutMe;
