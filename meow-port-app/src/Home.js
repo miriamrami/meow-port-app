@@ -1,22 +1,34 @@
 import './Home.css';
+import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import AboutMe from "./AboutMe.js"
+
 
 function Home() {
   return (
-    <div className="Home">
-      <header className="Home-header">
-        <p>
-          Edit <code>src/Home.js</code> and save to reload.
-        </p>
-        <a
-          className="Home-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {
+        <Router>
+          <Routes>
+            {/*Linking to the Home Page*/}
+            <Route
+              exact path= "/"
+              element={<Home/>} 
+            />
+            {/*Lingking to AboutMe Page*/}
+            <Route
+              exact path="/AboutMe.js"
+              element={<AboutMe/>}
+            />
+
+            <Route
+              path="*"
+              element={<Navigate to="/" />}
+            />
+
+          </Routes>
+        </Router>
+      }
+    </>
   );
 }
 
