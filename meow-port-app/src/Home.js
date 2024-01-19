@@ -1,35 +1,27 @@
-import './Home.css';
-import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
-import AboutMe from "./AboutMe.js"
+import React from "react";
+import { Link } from "react-router-dom";
 
-
-function Home() {
-  return (
-    <>
-      {
-        <Router>
-          <Routes>
-            {/*Linking to the Home Page*/}
-            <Route
-              exact path= "/"
-              element={<Home/>} 
-            />
-            {/*Lingking to AboutMe Page*/}
-            <Route
-              exact path="/AboutMe.js"
-              element={<AboutMe/>}
-            />
-
-            <Route
-              path="*"
-              element={<Navigate to="/" />}
-            />
-
-          </Routes>
-        </Router>
-      }
-    </>
-  );
-}
+const Home = () => {
+	return (
+		<div>
+			<h1>Home Page</h1>
+			<br />
+			<ul>
+				<li>
+					{/* Endpoint to route to Home component */}
+					<Link to="/">Home</Link>
+				</li>
+				<li>
+					{/* Endpoint to route to About component */}
+					<Link to="/about">About</Link>
+				</li>
+				<li>
+					{/* Endpoint to route to ------ component */}
+					<Link to="/contactus">------</Link>
+				</li>
+			</ul>
+		</div>
+	);
+};
 
 export default Home;
