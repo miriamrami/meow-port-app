@@ -6,10 +6,21 @@ const Projects = () => {
 		<div>
 			<h1>Project Showcase</h1>
 			<br/>
-			<li>
-				{/* Endpoint to route to Home component */}
-				<Link to="/Home.js">Home</Link>
-			</li>
+			<ul className="nav nav-tabs">
+				<li className="nav-item">
+					{/* Endpoint to route to Home component */}
+					<Link className="nav-link" to="/Home.js">Home</Link>
+				</li>
+				<li className="nav-item">
+					{/* Endpoint to route to About component */}
+					<Link className="nav-link" to="/AboutMe.js">About Me</Link>
+				</li>
+				<li className="nav-item">
+					{/* Endpoint to route to Home component */}
+					<Link className="nav-link active" aria-current="page" to="/">Projects</Link>
+				</li>
+				
+			</ul>
 		</div>
 	);
 };
