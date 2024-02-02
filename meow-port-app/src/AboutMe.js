@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
 	return (
 		<div>
+			<br/>
 			<h1>About Me</h1>
 			<br/>
 			<ul className="nav nav-tabs">
