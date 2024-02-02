@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
 	return (
 		<div>
+			<br/>
 			<h1>Home Page</h1>
 			<br />
 			<ul className="nav nav-tabs">
