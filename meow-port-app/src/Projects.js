@@ -19,7 +19,7 @@ const Projects = () => {
 				</li>
 				<li className="nav-item">
 					{/* Endpoint to route to Home component */}
-					<Link className="nav-link active" aria-current="page" to="/">Projects</Link>
+					<Link className="nav-link active" aria-current="page" to="/Projects.js">Projects</Link>
 				</li>
 				
 			</ul>

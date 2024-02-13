@@ -14,7 +14,7 @@ const AboutMe = () => {
 				</li>
 				<li className="nav-item">
 					{/* Endpoint to route to About component */}
-					<Link className="nav-link active" aria-current="page" to="/">About Me</Link>
+					<Link className="nav-link active" aria-current="page" to="/AboutMe.js">About Me</Link>
 				</li>
 				<li className="nav-item">
 					{/* Endpoint to route to Home component */}
