@@ -42,7 +42,7 @@ const AboutMe = () => {
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Get to know me!</h3>
-							<p>Hello! My name is Miriam. <br/> I graduated with a Bachelor's of Science in Computer Science and with a minor in Mathematics from the University of Texas at El Paso.<br/>
+							<p>* Hello! My name is Miriam. <br/> I graduated with a Bachelor's of Science in Computer Science and with a minor in Mathematics from the University of Texas at El Paso.<br/>
 							I aspire to grow as a web and mobile developer. 
 							</p>
 						</div>
@@ -52,11 +52,13 @@ const AboutMe = () => {
 						<div className="card-body">
 							<h3 className="card-name">Interests & Hobbies</h3>
 							<p>
-							* I love mushroom ravioli<br/>
-							* My favorite color is green<br/>
-							* I have a kitty!<br/>
-							* My favorite video game franchise is The Legend of Zelda, but I enjoy playing many other video games such as Genshin Impact, Honkai Star Rail, Animal Crossing, etc.<br/>
-							* I like to play tennis in my spare time
+							* Food: I love mushroom ravioli<br/>
+							* Color: My favorite color is green<br/>
+							* Pets: I have a kitty!<br/>
+							* Music: My music taste varies. I LOVE video game OSTs and I also enjoy alt indie, classic rock, and pop.<br/>
+							* Video Game: My favorite video game franchise is The Legend of Zelda, but I enjoy playing many other video games such as Genshin Impact, Honkai Star Rail, Animal Crossing, Stardew Valley etc.<br/>
+							* Sports: I like to play tennis in my spare time.<br/>
+							* Anime: Sailor Moon and Hunter x Hunter are my top 2!
 							
 
 
