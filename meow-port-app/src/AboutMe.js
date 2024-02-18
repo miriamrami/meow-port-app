@@ -5,7 +5,7 @@ import "./cssFiles//AboutMe.css";
 const AboutMe = () => {
 	return (
 	<body>
-		<div>
+		<div className="AboutMe">
 			<br/>
 			<h1>About Me</h1>
 			<br/>
