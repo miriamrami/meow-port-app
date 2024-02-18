@@ -6,9 +6,7 @@ const AboutMe = () => {
 	return (
 	<body>
 		<div className="AboutMe">
-			<br/>
 			<h1>About Me</h1>
-			<br/>
 			<ul className="nav nav-tabs">
 				<li className="nav-item">
 					{/* Endpoint to route to Home component */}
@@ -27,10 +25,12 @@ const AboutMe = () => {
 		<div>
 		{/* ROW 1 - CODE FOR IMG, NAME & SOCIALS BELOW */}
 			<div className="row" >
-				<div className="col"><img src={require('./imgs//IMG_7903.jpg')} width={200} height={200} className= "img-fluid" alt=" " /></div>
+				<div className="col">
+					<img src={require('./imgs//IMG_7903.jpg')} width={300} height={300} className= "img-fluid" alt=" " />
+				</div>
 				<div className="col">
 					<div className="row" >
-						<h2 className="my-name" >Miriam Ramirez</h2>
+						<h2 className="MyName" >Miriam Ramirez</h2>
 					</div>
 					<div className="row" >insert socials here?</div>
 				</div>
@@ -38,21 +38,21 @@ const AboutMe = () => {
 		{/* Row 2 - CODE FOR CARD GROUP BELOW */}
 			<div className="row" >
 				<div className="card-group">
-					<div className="card1">
+					<div className="card">
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Get to know me!</h3>
 							<p>-Insert info about Miriam here-</p>
 						</div>
 					</div>
-					<div className="card2">
+					<div className="card">
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Interests & Hobbies</h3>
 							<p>-Insert Miriam's interests and hobbies here-</p>
 						</div>
 					</div>
-					<div className="card3">
+					<div className="card">
 						{/* <img src="..." className="card-img" alt="cat"/> */}
 						<div className="card-body">
 							<h3 className="card-name">TBD</h3>

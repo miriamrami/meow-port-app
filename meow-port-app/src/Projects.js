@@ -5,10 +5,8 @@ import "./cssFiles//Projects.css";
 const Projects = () => {
 	return (
 	<body>
-		<div>
-			<br/>
+		<div className="ProjectPage">
 			<h1>Project Showcase</h1>
-			<br/>
 			<ul className="nav nav-tabs">
 				<li className="nav-item">
 					{/* Endpoint to route to Home component */}

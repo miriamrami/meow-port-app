@@ -1,4 +1,58 @@
+.AboutMe{
+    font-family: 'Courier New', Courier, monospace;
+}
 
-.AboutMe {
+h1 {
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+img{
+    margin-top: 50px;
+    margin-left: 200px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: rgb(4, 31, 66);
+    border-radius: 50%;
+}
+
+.MyName {
+    border-style: dashed; /*delete later*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: navy;
+    margin-right: 200px;
+    margin-top: 50px;
+ }
+
+
+.cardgroup {
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.card {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    border-style: dotted;
+    border-width: medium;
+    border-color: rgb(8, 0, 34);
+    background-color: rgb(87, 154, 218);
+    
+}
+
+/*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
+.row{
+    border-style: dashed;
+    border-color: white;
+}
+
+.col{
+    border-style: dashed;
+    border-color: gray;
 }
