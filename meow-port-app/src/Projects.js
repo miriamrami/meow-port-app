@@ -22,7 +22,6 @@ const Projects = () => {
 					{/* Endpoint to route to Home component */}
 					<Link className="nav-link active" aria-current="page" to="/Projects.js">Projects</Link>
 				</li>
-				
 			</ul>
 		</div>
 	</body>
