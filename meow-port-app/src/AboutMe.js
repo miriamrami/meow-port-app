@@ -25,7 +25,7 @@ const AboutMe = () => {
 			</ul>
 		</div>
 		<div>
-			<div className="row" > ROW 1
+			<div className="row" >
 				<div className="col"><img src={require('./imgs//IMG_7903.jpg')} width={200} height={200} className= "img-fluid" alt=" " /></div>
 				<div className="col">
 					<div className="row" >insert name here</div>
@@ -33,11 +33,11 @@ const AboutMe = () => {
 				</div>
 			</div>
 
-			<div className="row"  > ROW 2
+			<div className="row"  >
 				<div className="col"></div>
 			</div>
 
-			<div className="row" > ROW 3
+			<div className="row" >
 			</div>
 		</div>
 	</body>
