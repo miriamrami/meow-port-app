@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./cssFiles//AboutMe.css";
 
 const AboutMe = () => {
 	return (
@@ -24,20 +25,20 @@ const AboutMe = () => {
 			</ul>
 		</div>
 		<div>
-			<CRow >
-				<CCol>insert img of meowriam here</CCol>
-				<CCol>
-					<CRow>insert name here</CRow>
-					<CRow>insert socials here?</CRow>
-				</CCol>
-			</CRow>
+			<div className="row" > ROW 1
+				<div className="col"><img src={require('./imgs//IMG_7903.jpg')} width={200} height={200} className= "img-fluid" alt=" " /></div>
+				<div className="col">
+					<div className="row" >insert name here</div>
+					<div className="row" >insert socials here?</div>
+				</div>
+			</div>
 
-			<CRow >
-				<CCol></CCol>
-			</CRow>
+			<div className="row"  > ROW 2
+				<div className="col"></div>
+			</div>
 
-			<CRow >
-			</CRow>
+			<div className="row" > ROW 3
+			</div>
 		</div>
 	</body>
 	);
