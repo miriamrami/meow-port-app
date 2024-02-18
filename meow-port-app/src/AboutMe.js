@@ -37,7 +37,7 @@ const AboutMe = () => {
 				<div className="col"></div>
 			</div>
 
-			<div className="row" >
+			<div className="row">
 			</div>
 		</div>
 	</body>
