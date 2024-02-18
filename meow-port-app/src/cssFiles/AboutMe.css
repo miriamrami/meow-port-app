@@ -9,8 +9,9 @@ h1 {
 }
 
 img{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 200px;
+    margin-bottom: 25px;
     border-style: dotted;
     border-width: 20px;
     border-color: rgb(4, 31, 66);
