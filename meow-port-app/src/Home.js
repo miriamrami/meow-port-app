@@ -4,6 +4,7 @@ import "./cssFiles//Home.css";
 
 const Home = () => {
 	return (
+	<body>
 		<div className = "Home">
 			<br/>
 			<h1>Home Page</h1>
@@ -23,6 +24,7 @@ const Home = () => {
 				</li>
 			</ul> {/**nav nav-tabs */}
 		</div>
+	</body>
 	);
 };
 
