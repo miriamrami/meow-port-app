@@ -42,14 +42,28 @@ const AboutMe = () => {
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Get to know me!</h3>
-							<p>-Insert info about Miriam here-</p>
+							<p>Hello! My name is Miriam. <br/> I graduated with a Bachelor's of Science in Computer Science and with a minor in Mathematics from the University of Texas at El Paso.<br/>
+							I aspire to grow as a web and mobile developer. 
+							</p>
 						</div>
 					</div>
 					<div className="card">
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Interests & Hobbies</h3>
-							<p>-Insert Miriam's interests and hobbies here-</p>
+							<p>
+							* I love mushroom ravioli<br/>
+							* My favorite color is green<br/>
+							* I have a kitty!<br/>
+							* My favorite video game franchise is The Legend of Zelda, but I enjoy playing many other video games such as Genshin Impact, Honkai Star Rail, Animal Crossing, etc.<br/>
+							* I like to play tennis in my spare time
+							
+
+
+
+
+
+							</p>
 						</div>
 					</div>
 					<div className="card">
