@@ -4,6 +4,7 @@ import "./cssFiles//Projects.css";
 
 const Projects = () => {
 	return (
+	<body>
 		<div>
 			<br/>
 			<h1>Project Showcase</h1>
@@ -24,6 +25,7 @@ const Projects = () => {
 				
 			</ul>
 		</div>
+	</body>
 	);
 };
 
