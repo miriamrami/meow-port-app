@@ -38,13 +38,13 @@ img{
 
 .card {
     margin-top: 25px;
-    margin-left: 15px;
-    margin-right: 15px;
-
+    margin-left: 20px;
+    margin-right: 20px;
     border-style: dotted;
     border-width: medium;
     border-color: rgb(8, 0, 34);
     background-color: rgb(87, 154, 218);
+    border-radius: 20px;
     
 }
 
