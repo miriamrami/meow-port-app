@@ -12,7 +12,7 @@ img{
     margin-top: 25px;
     margin-left: 200px;
     margin-bottom: 25px;
-    border-style: dotted;
+    
     border-width: 20px;
     border-color: rgb(4, 31, 66);
     border-radius: 50%;
@@ -48,13 +48,21 @@ img{
     
 }
 
-p{
+.p1{
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
     background-color: lightblue;
     border-radius: 20px;
+}
+
+.meowriamCarousel{
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border: 1px;
+    
 }
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/

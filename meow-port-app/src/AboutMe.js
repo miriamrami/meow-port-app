@@ -48,16 +48,16 @@ const AboutMe = () => {
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Get to know me!</h3>
-							<p>* Hello! My name is Miriam. <br/> I graduated with a Bachelor's of Science in Computer Science and with a minor in Mathematics from the University of Texas at El Paso.<br/>
+							<p1>* Hello! My name is Miriam. <br/> I graduated with a Bachelor's of Science in Computer Science and with a minor in Mathematics from the University of Texas at El Paso.<br/>
 							I aspire to grow as a web and mobile developer. 
-							</p>
+							</p1>
 						</div>
 					</div>
 					<div className="card">
 						{/*<img src="..." className="card-img" alt="cat"/>*/}
 						<div className="card-body">
 							<h3 className="card-name">Interests & Hobbies</h3>
-							<p>
+							<p1>
 							* Food: I love mushroom ravioli<br/>
 							* Color: My favorite color is green<br/>
 							* Pets: I have a kitty!<br/>
@@ -71,23 +71,77 @@ const AboutMe = () => {
 
 
 
-							</p>
+							</p1>
 						</div>
 					</div>
 					<div className="card">
 						{/* <img src="..." className="card-img" alt="cat"/> */}
 						<div className="card-body">
 							<h3 className="card-name">TBD</h3>
-							<p>-TBD-</p>
+							<p1>-TBD-</p1>
 						</div>
 					</div>
 				</div>
 			</div>
-		{/* ROW 3 - CODE FOR CAROUSEL BELOW */}
-			<div className="row" >
 
+		{/* ROW 3 - CODE FOR CAPTIONS CAROUSEL BELOW */}
+			
+				<div id="meowriamCarousel" className="carousel slide">
+					<div className="carousel-indicators">
+						<button type="button" data-bs-target="#meowriamCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1" ></button>
+						<button type="button" data-bs-target="#meowriamCarousel" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+						<button type="button" data-bs-target="#meowriamCarousel" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+						<button type="button" data-bs-target="#meowriamCarousel" data-bs-slide-to="3" aria-label="Slide 4" ></button>
+						<button type="button" data-bs-target="#meowriamCarousel" data-bs-slide-to="4" aria-label="Slide 5" ></button>
+					</div>
+					<div className="carousel-inner">
+						<div className="carousel-item-active">
+							<img src="enter sauce here" className="d-block w-100" alt="..." />
+							<div className="carousel-caption d-none d-md-block">
+								<h4>First slide</h4>
+								<p>......</p>
+							</div>
+						</div>
+					</div>
+					<div className="carousel-item">
+						<img src="enter sauce here" className="d-block w-100" alt="..." />
+						<div className="carousel-caption d-none d-md-block">
+							<h4>Second slide</h4>
+							<p>......</p>
+						</div>
+					</div>
+					<div className="carousel-item">
+						<img src="enter sauce here" className="d-block w-100" alt="..." />
+						<div className="carousel-caption d-none d-md-block">
+							<h4>Third slide</h4>
+							<p>......</p>
+						</div>
+					</div>
+					<div className="carousel-item">
+						<img src="enter sauce here" className="d-block w-100" alt="..." />
+						<div className="carousel-caption d-none d-md-block">
+							<h4>Fourth slide</h4>
+							<p>......</p>
+						</div>
+					</div>
+					<div className="carousel-item">
+						<img src="enter sauce here" className="d-block w-100" alt="..." />
+						<div className="carousel-caption d-none d-md-block">
+							<h4>Fifth slide</h4>
+							<p>......</p>
+						</div>
+					</div>
+				</div>
+				<button className="carousel-control-prev" type="button" data-bs-target="#meowriamCarousel" data-bs-slide="prev">
+					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span className="visually-hidden">Previous</span>
+				</button>
+				<button className="carousel-control-next" type="button" data-bs-targe="#meowriamCarousel" data-bs-slide="next">
+					<span className="carousel-control-next" aria-hidden="true"></span>
+					<span className="visually-hidden"></span>
+				</button>
 			</div>
-		</div>
+		
 	</body>
 	);
 };
