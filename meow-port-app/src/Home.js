@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 	<body>
 		<div className = "Home">
-			<h1>Home Page</h1>
+			<h1> </h1>
 			<ul className="nav nav-tabs">
 				<li className="nav-item">
 					{/* Endpoint to route to Home component */}
