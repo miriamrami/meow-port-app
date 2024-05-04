@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
 	return (
@@ -22,6 +23,11 @@ const Home = () => {
 				</li>
 			</ul> {/**nav nav-tabs */}
 		</div>
+
+		<Container>
+
+		</Container>
+
 	</body>
 	);
 };

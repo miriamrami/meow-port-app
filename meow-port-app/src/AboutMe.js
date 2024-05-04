@@ -1,8 +1,7 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+import Stack from 'react-bootstrap/Stack';
 import Row from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import { Carousel } from 'react-bootstrap/Carousel';
 import "./cssFiles//AboutMe.css";
 
 const AboutMe = () => {
@@ -25,7 +24,17 @@ const AboutMe = () => {
 				</li>
 			</ul>
 		</div>
+
+		<Stack gap={3}>
+			<div className="p-2">stack one</div>
+			<div className="p-2">stack two</div>
+			<div className="p-2">stack three</div>
+		</Stack>
+
 	</body>
+
+
+
 	);
 };
 
