@@ -1,17 +1,63 @@
-.Home {
+.home-nav {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.nav-tabs{
+  background-image: url("/src/imgs/kittybackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .Home-link {
-  color: #61dafb;
+  color: hsl(193, 95%, 68%);
 }
 
 /*Figure out how to custmize the tabs -_-*/
-
+.body{
+  background-color: lightblue;
+}
 
 /*The following will be the color for the entire website.*/
-body{
-  background-color: rgb(119, 181, 244);
+.home-background{
+  background-image: url("/src/imgs/kittybackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  height: 100vh;
+
 }
+
+.row1{
+  margin: auto;
+  width: 55%;
+  border: 3px ;
+  padding: 15px;
+
+}
+
+.row2{
+  margin: auto;
+  width: 55%;
+  border: 3px solid pink;
+  padding: 15px;
+
+}
+
+.row3{
+  margin: auto;
+  width: 55%;
+  border: 3px solid pink;
+  padding: 15px;
+  
+}
+
+.col{
+  background-color: cadetblue;
+}
+
+
 

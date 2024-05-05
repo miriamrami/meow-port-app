@@ -2,68 +2,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-}
-
-img{
-    margin-top: 25px;
-    margin-left: 200px;
-    margin-bottom: 25px;
-    
-    border-width: 20px;
-    border-color: rgb(4, 31, 66);
-    border-radius: 50%;
-}
-
-.MyName {
-    border-style: dashed; /*delete later*/
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: navy;
-    margin-right: 200px;
-    margin-top: 25px;
- }
-
-
-
-.cardgroup {
-    margin: auto;
-    text-align: center;
-    flex-direction: column;
-    
-}
-
-.card {
-    margin-top: 25px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-style: dotted;
-    border-width: medium;
-    border-color: rgb(8, 0, 34);
-    background-color: rgb(87, 154, 218);
-    border-radius: 20px;
-    
-}
-
-.p1{
-    padding-top: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    background-color: lightblue;
-    border-radius: 20px;
-}
-
-.meowriamCarousel{
-    width: 100%;
-    max-width: none;
-    height: auto;
-    border: 1px;
-    
-}
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
 .row{
