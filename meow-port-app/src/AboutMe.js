@@ -1,29 +1,21 @@
 import React from "react";
-import Stack from 'react-bootstrap/Stack';
-import Row from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import { Container, Nav, Navbar, Stack } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
 
 const AboutMe = () => {
 	return (
 	<body>
-		<div className="AboutMe">
-			<h1> </h1>
-			<ul className="nav nav-tabs">
-				<li className="nav-item">
-					{/* Endpoint to route to Home component */}
-					<Link className="nav-link" to="/Home.js">Home</Link>
-				</li>
-				<li className="nav-item">
-					{/* Endpoint to route to About component */}
-					<Link className="nav-link active" aria-current="page" to="/AboutMe.js">About Me</Link>
-				</li>
-				<li className="nav-item">
-					{/* Endpoint to route to Home component */}
-					<Link className="nav-link" to="/Projects.js">Projects</Link>
-				</li>
-			</ul>
-		</div>
+		<Navbar className="home-nav">
+			<Container>
+				<Navbar.Brand href="/">:3</Navbar.Brand>
+					<Nav className="my-navbar">
+						<Link className="nav-link" to="/">Home</Link>
+						<Link className="nav-link active" aria-current="page" to="/AboutMe.js">About Me</Link>
+						<Link className="nav-link" to="/Projects.js">Projects</Link>
+				</Nav>
+			</Container>
+		</Navbar>
 
 		<Stack gap={3}>
 			<div className="p-2">stack one</div>

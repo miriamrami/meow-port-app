@@ -12,7 +12,7 @@ const Home = () => {
 			<Container>
 				<Navbar.Brand href="/">:3</Navbar.Brand>
 					<Nav className="my-navbar">
-						<Link className="nav-link" to="/">Home</Link>
+						<Link className="nav-link active" aria-current="page" to="/">Home</Link>
 						<Link className="nav-link" to="/AboutMe.js">About Me</Link>
 						<Link className="nav-link" to="/Projects.js">Projects</Link>
 				</Nav>
@@ -43,7 +43,7 @@ const Home = () => {
 							<Card.Text>
 								Click on links below to connect.
 							</Card.Text>
-							<Button variant="Link">LinkedIn</Button>
+							<Button variant="Link" href="https://www.linkedin.com/in/miriamtramirez/">LinkedIn</Button>
 							<Button variant="Link">TBD</Button>
 						</Card.Body>
 					</Card>
