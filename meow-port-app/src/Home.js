@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button } from "react-bootstrap";
 
 const Home = () => {
 	return (
@@ -43,7 +43,8 @@ const Home = () => {
 							<Card.Text>
 								Click on links below to connect.
 							</Card.Text>
-							<></>
+							<Button variant="Link">LinkedIn</Button>
+							<Button variant="Link">TBD</Button>
 						</Card.Body>
 					</Card>
 				</Col>
