@@ -8,7 +8,7 @@ const Home = () => {
 	<body>
 		<div className="home-background">
 
-		<Navbar>
+		<Navbar className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">:3</Navbar.Brand>
 					<Nav className="my-navbar">
