@@ -24,7 +24,7 @@ const Home = () => {
 		<Container fluid>
 			<Row className="row1">
 				<Col>
-					<Card>
+					<Card className="cardWelcome">
 						<Card.Body>
 							Howdy! My name is Miriam and this is my portfolio.
 						</Card.Body>
