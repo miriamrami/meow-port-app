@@ -26,7 +26,7 @@ const Home = () => {
 				<Col>
 					<Card>
 						<Card.Body>
-							Howdy! I'm Miriam and this is my portfolio.
+							Howdy! My name is Miriam and this is my portfolio.
 						</Card.Body>
 					</Card>
 				</Col>
@@ -38,10 +38,10 @@ const Home = () => {
 					<Card>
 						<Card.Body>
 							<Card.Title>
-								Let's Connect!
+								Let's Keep in Touch!
 							</Card.Title>
 							<Card.Text>
-								I've linked my socials so that we can stay in touch 
+								Click on links below to connect.
 							</Card.Text>
 							<></>
 						</Card.Body>
