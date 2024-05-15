@@ -17,11 +17,13 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
-		<Stack gap={3}>
-			<div className="p-2">stack one</div>
-			<div className="p-2">stack two</div>
-			<div className="p-2">stack three</div>
-		</Stack>
+		<Container>
+			<Stack gap={3}>
+				<div className="p-2">stack one</div>
+				<div className="p-2">stack two</div>
+				<div className="p-2">stack three</div>
+			</Stack>
+		</Container>
 
 	</body>
 
