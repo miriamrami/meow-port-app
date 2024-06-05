@@ -17,8 +17,8 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
-		<Container>
-			<Stack gap={3}>
+		<Container className="AboutMe-container">
+			<Stack className="AM-stack">
 				<div className="p-2">stack one</div>
 				<div className="p-2">stack two</div>
 				<div className="p-2">stack three</div>

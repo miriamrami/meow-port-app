@@ -1,5 +1,24 @@
 .AboutMe{
     font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.AboutMe-container{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AM-stack{
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
 
