@@ -6,6 +6,7 @@ import "./cssFiles//AboutMe.css";
 const AboutMe = () => {
 	return (
 	<body>
+		<div className="home-background">
 		<Navbar className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">:3</Navbar.Brand>
@@ -25,6 +26,7 @@ const AboutMe = () => {
 			</Stack>
 		</Container>
 
+		</div>
 	</body>
 
 
