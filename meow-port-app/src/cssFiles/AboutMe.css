@@ -14,7 +14,7 @@ body{
     width: 100%;
 }
 
-.AM-stack{
+.AM-row{
     flex: 1;
     background-color: white;
     padding: 20px;

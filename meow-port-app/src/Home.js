@@ -53,7 +53,7 @@ const Home = () => {
 		<Container fluid>
 			<Row className="row3">
 				<Col>
-					Implement footer here
+					Website by meowzillaa =^-w-^=
 				</Col>
 			</Row>
 		</Container>
