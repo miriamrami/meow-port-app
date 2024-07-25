@@ -12,7 +12,7 @@ const AboutMe = () => {
 	return (
 	<body>
 		<div className="home-background">
-		<Navbar className="aboutme-nav">
+		<Navbar className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">:3</Navbar.Brand>
 					<Nav className="my-navbar">
