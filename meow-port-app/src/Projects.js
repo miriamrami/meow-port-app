@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Accordion } from "react-bootstrap";
 
 const Projects = () => {
 
@@ -18,7 +18,22 @@ const Projects = () => {
 						</Nav>
 				</Container>
 			</Navbar>
-				
+			
+			<Accordion>
+      			<Accordion.Item eventKey="0">
+        			<Accordion.Header>Accordion Item #1</Accordion.Header>
+        				<Accordion.Body>
+							Enter description of info of project here
+        				</Accordion.Body>
+      			</Accordion.Item>
+      			<Accordion.Item eventKey="1">
+        			<Accordion.Header>Accordion Item #2</Accordion.Header>
+        				<Accordion.Body>
+							Project info goes here 
+        				</Accordion.Body>
+      			</Accordion.Item>
+    		</Accordion>
+
 		</div>
 		
 
