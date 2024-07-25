@@ -5,6 +5,13 @@ import WA1 from "./Demos/wApp1.png";
 import WA2 from "./Demos/wApp2.png";
 import WA3 from "./Demos/wApp3.png";
 import WA4 from "./Demos/wApp4.png";
+import WA5 from "./Demos/wApp5.png";
+import WA6 from "./Demos/wApp6.png";
+import WA7 from "./Demos/wApp7.png";
+import WA8 from "./Demos/wApp8.png";
+import WA9 from "./Demos/wApp9.png";
+import WA1O from "./Demos/wApp1.png";
+import WA11 from "./Demos/wApp11.png";
 
 
 const Projects = () => {
@@ -39,25 +46,21 @@ const Projects = () => {
 									<Col>videos?</Col>
 									<Col>
 										<Row>
-											<Col></Col>
-											<Col></Col>
-											<Col></Col>
-											<Col></Col>
+											<Col><Image src={WA8} rounded fluid/></Col>
+											<Col><Image src={WA9} rounded fluid/></Col>
+											<Col><Image src={WA1O} rounded fluid/></Col>
+											<Col><Image src={WA11} rounded fluid/></Col>
 										</Row>
 										<Row>
-											<Col>
-												<Image src={WA1} rounded fluid/>
-											</Col>
-											<Col>
-												<Image src={WA2} rounded fluid/>
-											</Col>
+											<Col><Image src={WA1} rounded fluid/></Col>
+											<Col><Image src={WA2} rounded fluid/></Col>
 											<Col><Image src={WA3} rounded fluid/></Col>
 											<Col><Image src={WA4} rounded fluid/></Col>
 										</Row>
 										<Row>
-											<Col></Col>
-											<Col></Col>
-											<Col></Col>
+											<Col><Image src={WA5} rounded fluid/></Col>
+											<Col><Image src={WA6} rounded fluid/></Col>
+											<Col><Image src={WA7} rounded fluid/></Col>
 											<Col></Col>
 										</Row>
 									</Col>
