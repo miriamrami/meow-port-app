@@ -32,6 +32,18 @@ const Projects = () => {
 							Project info goes here 
         				</Accordion.Body>
       			</Accordion.Item>
+				  <Accordion.Item eventKey="2">
+        			<Accordion.Header>Accordion Item #3</Accordion.Header>
+        				<Accordion.Body>
+							Enter description of info of project here
+        				</Accordion.Body>
+      			</Accordion.Item>
+      			<Accordion.Item eventKey="3">
+        			<Accordion.Header>Accordion Item #4</Accordion.Header>
+        				<Accordion.Body>
+							Project info goes here 
+        				</Accordion.Body>
+      			</Accordion.Item>
     		</Accordion>
 		</Container>
 		</div>
