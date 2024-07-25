@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./cssFiles//Projects.css";
+import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 
 const Projects = () => {
 
@@ -7,20 +8,17 @@ const Projects = () => {
 	<body>
 		<div className="ProjectPage">
 			<h1></h1>
-			<ul className="nav nav-tabs">
-				<li className="nav-item">
-					{/* Endpoint to route to Home component */}
-					<Link className="nav-link" to="/Home.js">Home</Link>
-				</li>
-				<li className="nav-item">
-					{/* Endpoint to route to About component */}
-					<Link className="nav-link" to="/AboutMe.js">About Me</Link>
-				</li>
-				<li className="nav-item">
-					{/* Endpoint to route to Home component */}
-					<Link className="nav-link active" aria-current="page" to="/Projects.js">Projects</Link>
-				</li>
-			</ul>
+			<Navbar className="home-nav">
+				<Container>
+					<Navbar.Brand href="/">:3</Navbar.Brand>
+						<Nav className="my-navbar">
+							<Link className="nav-link" to="/Home.js">Home</Link>
+							<Link className="nav-link" to="/AboutMe.js">About Me</Link>
+							<Link className="nav-link active" aria-current="page" to="/Projects.js">Projects</Link>
+						</Nav>
+				</Container>
+			</Navbar>
+				
 		</div>
 		
 
