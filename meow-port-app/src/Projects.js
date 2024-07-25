@@ -12,6 +12,9 @@ import WA8 from "./Demos/wApp8.png";
 import WA9 from "./Demos/wApp9.png";
 import WA1O from "./Demos/wApp1.png";
 import WA11 from "./Demos/wApp11.png";
+import sImg1 from "./Demos/sketch1.png";
+import sImg2 from "./Demos/sketch2.png";
+import sImg3 from "./Demos/sketch3.png";
 
 
 const Projects = () => {
@@ -43,7 +46,17 @@ const Projects = () => {
 									</Col>
 								</Row>
 								<Row>
-									<Col>videos?</Col>
+									<Col>
+										<Row>
+											<Col><Image src={sImg1} rounded fluid/></Col>
+										</Row>
+										<Row>
+											<Col><Image src={sImg2} rounded fluid/></Col>
+										</Row>
+										<Row>
+											<Col><Image src={sImg3} rounded fluid/></Col>
+										</Row>
+									</Col>
 									<Col>
 										<Row>
 											<Col><Image src={WA8} rounded fluid/></Col>
