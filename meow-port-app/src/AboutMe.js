@@ -6,6 +6,7 @@ import myImage from "./imgs/miriamimg.jpg";
 import castleImage from "./imgs/osakaCastle.jpg";
 import towerImage from "./imgs/tokyoTower.jpg";
 import rockefellerImage from "./imgs/rockefellerTower.jpg";
+import oliImage from "./imgs/bbOliver.jpg";
 
 const AboutMe = () => {
 	return (
@@ -21,7 +22,6 @@ const AboutMe = () => {
 				</Nav>
 			</Container>
 		</Navbar>
-
 		<Container className="c1">
 			<Row className="AM-row1">
 				<Col>
@@ -35,7 +35,9 @@ const AboutMe = () => {
 			<Row className="AM-row2">
 				<Col>A short intro about myself?</Col>
 				<Col>Interests/Hobbies </Col>
-				<Col> No clue?</Col>
+				<Col>
+				<Image src={oliImage} roundedCircle fluid/>
+				</Col>
 			</Row>
 		</Container>
 		<Container className="c3">
