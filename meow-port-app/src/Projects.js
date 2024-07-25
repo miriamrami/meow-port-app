@@ -18,7 +18,7 @@ const Projects = () => {
 						</Nav>
 				</Container>
 			</Navbar>
-			
+		<Container>
 			<Accordion>
       			<Accordion.Item eventKey="0">
         			<Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -33,10 +33,8 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
     		</Accordion>
-
+		</Container>
 		</div>
-		
-
 	</body>
 	);
 };
