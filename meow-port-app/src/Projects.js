@@ -26,12 +26,14 @@ const Projects = () => {
 		<Container>
 			<Accordion>
       			<Accordion.Item eventKey="0">
-        			<Accordion.Header>Accordion Item #1</Accordion.Header>
+        			<Accordion.Header>Cross Platform Mobile App Development</Accordion.Header>
         				<Accordion.Body>
 							<Container>
 								<Row>
-									<Col>app name </Col>
-									<Col>brief description</Col>
+									<Col>App Name: Gift Me</Col>
+									<Col>
+										With this application a user should be able to create a list of items that they would like to receive as gifts for any special occasion. Instead of having to go to a store that has a gift registry, people can register items and create boards for any special occasion right from their pocket and share their wish lists with their friends and family.
+									</Col>
 								</Row>
 								<Row>
 									<Col>videos?</Col>
