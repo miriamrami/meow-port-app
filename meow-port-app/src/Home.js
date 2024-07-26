@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button, Image } from "react-bootstrap";
+import ghcImg from "./imgs/miriamAtGHC.jpg";
 
 const Home = () => {
 	return (
@@ -19,15 +20,22 @@ const Home = () => {
 			</Container>
 		</Navbar>
 
-
+		<Container>
+			<Row>
+				<Col>
+				</Col>
+			</Row>
+		</Container>
 
 		<Container fluid>
 			<Row className="row1">
 				<Col>
 					<Card className="cardWelcome">
+					<Card.Img variant="top" src={ghcImg} rounded fluid />
 						<Card.Body>
-							Howdy! My name is Miriam and this is my portfolio.
+							<Card.Text>Me at the 2019 GHC</Card.Text>
 						</Card.Body>
+					
 					</Card>
 				</Col>
 			</Row>
@@ -40,11 +48,8 @@ const Home = () => {
 							<Card.Title>
 								Let's Keep in Touch!
 							</Card.Title>
-							<Card.Text>
-								Click on links below to connect.
-							</Card.Text>
 							<Button variant="Link" href="https://www.linkedin.com/in/miriamtramirez/">LinkedIn</Button>
-							<Button variant="Link">TBD</Button>
+							<Button variant="Link">miriamteresaram@gmail.com</Button>
 						</Card.Body>
 					</Card>
 				</Col>
