@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col, Accordion, Image} from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card} from "react-bootstrap";
 import WA1 from "./Demos/wApp1.png";
 import WA2 from "./Demos/wApp2.png";
 import WA3 from "./Demos/wApp3.png";
@@ -84,9 +84,26 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
       			<Accordion.Item eventKey="1">
-        			<Accordion.Header>Accordion Item #2</Accordion.Header>
+        			<Accordion.Header>WIX Web Page</Accordion.Header>
         				<Accordion.Body>
-							Project info goes here 
+							<Row>
+								<Col>
+									<Card>
+										<Card.Body>
+											<CardHeader>Click the link below to check out my project!</CardHeader>
+											<CardText></CardText>
+											<Card.Link href="https://mtramirez4.wixsite.com/mysite-3">My Cat-licious Website</Card.Link>
+										</Card.Body>
+									</Card>
+								</Col>
+								<Col>
+									<Card>
+										<Card.Body>
+											<CardText> This WIX website was a project that I had to create during my freshman year of college for my Rhetoric & Writing Studies course.</CardText>
+										</Card.Body>
+									</Card>
+								</Col>
+							</Row>
         				</Accordion.Body>
       			</Accordion.Item>
 				  <Accordion.Item eventKey="2">
