@@ -22,7 +22,7 @@ const Projects = () => {
 	return (
 	<body>
 		<div className="ProjectPage">
-			<h1></h1>
+		
 			<Navbar className="home-nav">
 				<Container>
 					<Navbar.Brand href="/">:3</Navbar.Brand>
@@ -119,6 +119,13 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
     		</Accordion>
+		</Container>
+		<Container fluid>
+			<Row className="row3">
+				<Col>
+					Website by meowzillaa =^-w-^=
+				</Col>
+			</Row>
 		</Container>
 		</div>
 	</body>
