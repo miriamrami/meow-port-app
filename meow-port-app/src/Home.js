@@ -65,12 +65,6 @@ const Home = () => {
           										React Native, React Bootstrap, Flutter Bootstrap
         									</div>
       									</ListGroup.Item>
-      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
-        									<div className="ms-2 me-auto">
-          										<div className="fw-bold">Languages</div>
-          										Fluent in English & Spanish
-        									</div>
-      									</ListGroup.Item>
 										  <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
         									<div className="ms-2 me-auto">
           										<div className="fw-bold">Methodologies & Practices</div>
