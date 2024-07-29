@@ -15,6 +15,10 @@ import WA11 from "./Demos/wApp11.png";
 import sImg1 from "./Demos/sketch1.png";
 import sImg2 from "./Demos/sketch2.png";
 import sImg3 from "./Demos/sketch3.png";
+import wp1 from "./Demos/web1.jpg";
+import wp2 from "./Demos/web2.jpg";
+import wp3 from "./Demos/web3.jpg";
+import wp4 from "./Demos/web4.jpg";
 
 
 const Projects = () => {
@@ -126,6 +130,9 @@ const Projects = () => {
 										</Card.Body>
 									</Card>
 								</Col>
+							</Row>
+							<Row>
+
 							</Row>
         				</Accordion.Body>
       			</Accordion.Item>
