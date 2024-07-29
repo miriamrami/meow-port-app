@@ -33,7 +33,7 @@ const Home = () => {
 					<Card className="cardWelcome">
 					<Card.Img variant="top" src={ghcImg} rounded fluid />
 						<Card.Body>
-							<Card.Text>Me at the 2019 GHC</Card.Text>
+							<Card.Text>Pictured, me at the 2019 Grace Hopper Conference held that year in Orlando, Florida.</Card.Text>
 						</Card.Body>
 					
 					</Card>
