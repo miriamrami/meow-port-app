@@ -28,6 +28,18 @@ body{
     
   }
 
+  .nameInfoCol{
+    place-content: center;
+    text-align: center;
+  }
+
+  .nameCardText{
+    
+    font-size: large;
+  }
+
+
+
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
 .row{
     border-style: dashed;
