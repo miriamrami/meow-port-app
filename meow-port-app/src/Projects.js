@@ -92,7 +92,7 @@ const Projects = () => {
 										<Card.Body>
 											<CardHeader>Click the link below to check out my project!</CardHeader>
 											<CardText></CardText>
-											<Card.Link href="https://mtramirez4.wixsite.com/mysite-3">My Cat-licious Website</Card.Link>
+											<Card.Link href="https://mtramirez4.wixsite.com/mysite-3" target="_blank">My Cat-licious Website</Card.Link>
 										</Card.Body>
 									</Card>
 								</Col>

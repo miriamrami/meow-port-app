@@ -46,10 +46,9 @@ const Home = () => {
 					<Card>
 						<Card.Body>
 							<Card.Title>
-								Let's Keep in Touch!
+								Let's Connect!
 							</Card.Title>
-							<Button variant="Link" href="https://www.linkedin.com/in/miriamtramirez/">LinkedIn</Button>
-							<Button variant="Link">miriamteresaram@gmail.com</Button>
+							<Button variant="Link" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank">LinkedIn</Button>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -58,7 +57,7 @@ const Home = () => {
 		<Container fluid>
 			<Row className="row3">
 				<Col>
-					Website by meowzillaa =^-w-^=
+					Website by meowzilla =^-w-^=
 				</Col>
 			</Row>
 		</Container>
