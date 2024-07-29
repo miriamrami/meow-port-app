@@ -53,7 +53,7 @@ const Projects = () => {
 										<Card>
 											<Card.Body>
 												<Card.Text>
-												Description: With this application a user should be able to create a list of items that they would like to receive as gifts for any special occasion. Instead of having to go to a store that has a gift registry, people can register items and create boards for any special occasion right from their pocket and share their wish lists with their friends and family.
+												Created a Flutter app from scratch with Firebase integration for user authentication, enabling secure storage and management of user data. Developed a wish list application allowing users to create, populate, and share wish lists for special occasions such as birthdays, weddings, and college departures. 
 												</Card.Text>
 											</Card.Body>
 										</Card>
