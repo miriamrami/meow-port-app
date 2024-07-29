@@ -23,6 +23,7 @@ const Home = () => {
 		<Container>
 			<Row>
 				<Col>
+					<h1 className="nameHeader">Miriam Ramirez</h1>
 				</Col>
 			</Row>
 		</Container>
