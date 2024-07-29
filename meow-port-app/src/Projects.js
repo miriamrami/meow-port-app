@@ -40,13 +40,32 @@ const Projects = () => {
         				<Accordion.Body>
 							<Container>
 								<Row>
-									<Col>App Name: Gift Me</Col>
 									<Col>
-										With this application a user should be able to create a list of items that they would like to receive as gifts for any special occasion. Instead of having to go to a store that has a gift registry, people can register items and create boards for any special occasion right from their pocket and share their wish lists with their friends and family.
+										<Card>
+											<Card.Body>
+												<Card.Text>
+													App Name: Gift Me
+												</Card.Text>
+											</Card.Body>
+										</Card>
+									</Col>
+									<Col>
+										<Card>
+											<Card.Body>
+												<Card.Text>
+												Description: With this application a user should be able to create a list of items that they would like to receive as gifts for any special occasion. Instead of having to go to a store that has a gift registry, people can register items and create boards for any special occasion right from their pocket and share their wish lists with their friends and family.
+												</Card.Text>
+											</Card.Body>
+										</Card>
 									</Col>
 								</Row>
 								<Row>
 									<Col>
+											<Card>
+												<Card.Body>
+													<Card.Text>App Early Sketches</Card.Text>
+												</Card.Body>
+											</Card>
 										<Row>
 											<Col><Image src={sImg1} rounded fluid/></Col>
 										</Row>
@@ -58,6 +77,11 @@ const Projects = () => {
 										</Row>
 									</Col>
 									<Col>
+											<Card>
+												<Card.Body>
+													<Card.Text>App Demo Screenshots</Card.Text>
+												</Card.Body>
+											</Card>
 										<Row>
 											<Col><Image src={WA8} rounded fluid/></Col>
 											<Col><Image src={WA9} rounded fluid/></Col>
