@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup } from "react-bootstrap";
 import ghcImg from "./imgs/miriamAtGHC.jpg";
 
 const Home = () => {
@@ -43,7 +43,49 @@ const Home = () => {
 				</Col>
 			</Row>
 		</Container>
-		
+
+		<Container>
+			<Row className="row1">
+				<Col>
+					<Container>
+							<Card>
+								<Card.Body>
+									<Card.Header>Tech Stack</Card.Header>
+									<Card.Text>
+									<ListGroup as="ol">
+      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
+        									<div className="ms-2 me-auto">
+          										<div className="fw-bold">Programming Languages</div>
+												Java, PHP, HTML, C, Dart, Javascript, CSS, Python
+											</div>
+      									</ListGroup.Item>
+      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
+        									<div className="ms-2 me-auto">
+          										<div className="fw-bold">Frameworks</div>
+          										React Native, React Bootstrap, Flutter Bootstrap
+        									</div>
+      									</ListGroup.Item>
+      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
+        									<div className="ms-2 me-auto">
+          										<div className="fw-bold">Languages</div>
+          										Fluent in English & Spanish
+        									</div>
+      									</ListGroup.Item>
+										  <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
+        									<div className="ms-2 me-auto">
+          										<div className="fw-bold">Methodologies & Practices</div>
+          										Agile, Sprint Planning, Personal Software Process
+        									</div>
+      									</ListGroup.Item>
+    								</ListGroup>
+									</Card.Text>
+								</Card.Body>
+							</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
 		<Container fluid>
 			<Row className="row2">
 				<Col>
