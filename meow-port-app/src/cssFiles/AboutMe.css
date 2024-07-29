@@ -38,7 +38,9 @@ body{
     font-size: large;
   }
 
-
+ .socialsCol{
+    place-content: center;
+ }
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
 .row{
@@ -49,4 +51,9 @@ body{
 .col{
     border-style: dashed;
     border-color: gray;
+}
+
+.c3{
+  place-content: center;
+
 }

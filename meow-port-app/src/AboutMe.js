@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
 import myImage from "./imgs/miriamimg.jpg";
 import castleImage from "./imgs/osakaCastle.jpg";
@@ -27,6 +27,7 @@ const AboutMe = () => {
 				<Col>
 					<Image src={myImage} roundedCircle fluid/>
 				</Col>
+
 				<Col className="nameInfoCol">
 					<Card bg="primary">
 						<CardBody>
@@ -39,7 +40,27 @@ const AboutMe = () => {
 						</CardBody>
 					</Card>
 				</Col>
-				<Col> Links? </Col>
+
+				<Col className="socialsCol">
+					<Row>
+						<Card>
+							<Card.Body>
+								<Card.Title>Socials</Card.Title>
+							</Card.Body>
+						</Card>
+					</Row>
+
+					<Row>
+						<Container>
+							<Row>
+								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank">Instagram</Button></Col>
+								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank">Spotify</Button></Col>
+								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank">Steam</Button></Col>
+							</Row>
+						</Container>
+					</Row>
+				</Col>
+
 			</Row>
 		</Container>
 		<Container className="c2">
@@ -65,26 +86,26 @@ const AboutMe = () => {
 					<Carousel>
 						<Carousel.Item>
 							<Container className="c4">
-							<Image src={castleImage} text="Slide 1" rounded fluid className="img1"/>
+							<img className="d-block w-100" src={castleImage} alt="First Slide"/>
 							<Carousel.Caption>
-								<h3>Osaka Castle in the Distance</h3>
+								<h3>Title</h3>
 								<p>insert description here?</p>
 							</Carousel.Caption>
 							</Container>
 						</Carousel.Item>
 						<Carousel.Item>
 							<Container>
-							<Image src={towerImage} text="Slide 2" rounded fluid className="img2"/>
+							<img className="d-block w-100" src={towerImage} alt="Second Slide"/>
 							<Carousel.Caption>
-								<h3>Tokyo Tower</h3>
+								<h3>Title</h3>
 								<p>insert description here?</p>
 							</Carousel.Caption>
 							</Container>
 						</Carousel.Item>
 						<Carousel.Item>
-							<Image src={rockefellerImage} text="Slide 3" rounded fluid className="img3" />
+							<img className="d-block w-100" src={rockefellerImage} alt="Third Slide"/>
 							<Carousel.Caption>
-								<h3>Rockerfeller Tower During Christmas</h3>
+								<h3>Title</h3>
 								<p>insert description here?</p>
 							</Carousel.Caption>
 						</Carousel.Item>
