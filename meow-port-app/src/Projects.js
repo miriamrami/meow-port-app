@@ -10,7 +10,7 @@ import WA6 from "./Demos/wApp6.png";
 import WA7 from "./Demos/wApp7.png";
 import WA8 from "./Demos/wApp8.png";
 import WA9 from "./Demos/wApp9.png";
-import WA1O from "./Demos/wApp1.png";
+import WA1O from "./Demos/wApp1O.png";
 import WA11 from "./Demos/wApp11.png";
 import sImg1 from "./Demos/sketch1.png";
 import sImg2 from "./Demos/sketch2.png";
