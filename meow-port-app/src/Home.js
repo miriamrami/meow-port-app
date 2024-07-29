@@ -50,7 +50,7 @@ const Home = () => {
 					<Container>
 							<Card>
 								<Card.Body>
-									<Card.Header>Tech Stack</Card.Header>
+									<Card.Title>Tech Stack</Card.Title>
 									<Card.Text>
 									<ListGroup as="ol">
       									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
