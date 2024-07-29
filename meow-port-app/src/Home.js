@@ -31,6 +31,7 @@ const Home = () => {
 		<Container fluid>
 			<Row className="row1">
 				<Col>
+					<Container>
 					<Card className="cardWelcome">
 					<Card.Img variant="top" src={ghcImg} rounded fluid />
 						<Card.Body>
@@ -38,9 +39,11 @@ const Home = () => {
 						</Card.Body>
 					
 					</Card>
+					</Container>
 				</Col>
 			</Row>
 		</Container>
+		
 		<Container fluid>
 			<Row className="row2">
 				<Col>
@@ -55,6 +58,7 @@ const Home = () => {
 				</Col>
 			</Row>
 		</Container>
+		
 		<Container fluid>
 			<Row className="row3">
 				<Col>
