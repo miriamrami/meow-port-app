@@ -90,19 +90,19 @@ const Projects = () => {
 											<Col><Image src={WA8} rounded fluid/></Col>
 											<Col><Image src={WA9} rounded fluid/></Col>
 											<Col><Image src={WA1O} rounded fluid/></Col>
-											<Col><Image src={WA11} rounded fluid/></Col>
+											
 										</Row>
 										<Row>
 											<Col><Image src={WA1} rounded fluid/></Col>
 											<Col><Image src={WA2} rounded fluid/></Col>
 											<Col><Image src={WA3} rounded fluid/></Col>
-											<Col><Image src={WA4} rounded fluid/></Col>
+											
 										</Row>
 										<Row>
 											<Col><Image src={WA5} rounded fluid/></Col>
 											<Col><Image src={WA6} rounded fluid/></Col>
 											<Col><Image src={WA7} rounded fluid/></Col>
-											<Col></Col>
+											
 										</Row>
 									</Col>
 								</Row>
@@ -132,7 +132,10 @@ const Projects = () => {
 								</Col>
 							</Row>
 							<Row>
-
+								<Col><Image src={wp1} rounded fluid/></Col>
+								<Col><Image src={wp2} rounded fluid/></Col>
+								<Col><Image src={wp3} rounded fluid/></Col>
+								<Col><Image src={wp4} rounded fluid/></Col>
 							</Row>
         				</Accordion.Body>
       			</Accordion.Item>
@@ -152,9 +155,9 @@ const Projects = () => {
 		</Container>
 		<Container fluid>
 			<Row className="row3">
-				<Col>
+			
 					Website by meowzillaa =^-w-^=
-				</Col>
+			
 			</Row>
 		</Container>
 		</div>
