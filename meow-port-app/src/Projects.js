@@ -103,9 +103,8 @@ const Projects = () => {
 									</Col>
 								</Row>
 							</Container>
-
-
         				</Accordion.Body>
+						
       			</Accordion.Item>
       			<Accordion.Item eventKey="1">
         			<Accordion.Header>WIX Web Page</Accordion.Header>
