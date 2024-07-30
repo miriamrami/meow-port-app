@@ -85,8 +85,8 @@ const AboutMe = () => {
 							<Card.Text>
 							In terms of methodologies and practices, I am well versed in Agile, Sprint Planning and the Personal Software Process, which I apply to ensure efficient and high quality development processes. 
 							</Card.Text>
-							<Card.Text>My current goal is to gain hands-on experience in the tech industry and contribute to innovative projects. I aspire to become a web developer and software engineer, creating impactful and efficient web applications and software solutions. Feel free to connect with me on LinkedIn or reach out va email.</Card.Text>
-							
+							<Card.Text>My current goal is to gain hands-on experience in the tech industry and contribute to innovative projects. I aspire to become a web developer and software engineer, creating impactful and efficient web applications and software solutions.</Card.Text>
+							<Card.Text> Feel free to connect with me on LinkedIn or reach out va email.</Card.Text>
 						</CardBody>
 					</Card>
 				</Col>
