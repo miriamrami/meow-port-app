@@ -132,6 +132,11 @@ const Projects = () => {
 								</Col>
 							</Row>
 							<Row>
+								<Card>
+									<Card.Body>
+										<Card.Text >Screencaptures of the WIX Website </Card.Text>
+									</Card.Body>
+								</Card>
 								<Col><Image src={wp1} rounded fluid/></Col>
 								<Col><Image src={wp2} rounded fluid/></Col>
 								<Col><Image src={wp3} rounded fluid/></Col>

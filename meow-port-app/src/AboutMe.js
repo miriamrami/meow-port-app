@@ -34,6 +34,11 @@ const AboutMe = () => {
 							<CardText className="nameCardText">Miriam T Ramirez</CardText>
 						</CardBody>
 					</Card>
+					<Card>
+						<CardBody>
+							<Card.Text></Card.Text>
+						</CardBody>
+					</Card>
 					<Card bg="primary">
 						<CardBody>
 							<CardText>e-mail: miriamteresaram@gmail.com</CardText>
@@ -68,13 +73,24 @@ const AboutMe = () => {
 				<Col>A short intro about myself?
 					<Card>
 						<CardBody>
-							My name is Miriam Ramirez and I graduated from the University of Texas at El Paso with a Bachelor's of Science in Computer Science and with a minor in Mathematics.
-							During my time in college I worked for the University's Technology Support where I lasted until I graduated.
+							<Card.Text>
+							Hello! My name is Miriam Ramirez and I was born in Ciudad Juarez, Chihuaha but I was raised in El Paso, Texas. I graduated from the University of Texas at El Paso with a Bachelor's of Science in Computer Science and with a minor in Mathematics.
+							</Card.Text>
+							<Card.Text>
+							I have a strong passion for software development, particularly in areas such as web development, data analysis, and mobile app development. I am proficient in several programming languages including Java, PHP, HTML, C, Dart, Javascript, CSS and Python. My experience extends to various frameworks such as React Native, React Bootstrap, Flutter and Bootstrap.
+							</Card.Text>
+							<Card.Text>
+							During my time at the university, I worked on several projects that honed my skills. Notably, with a few other classmates, we developed a data
+							</Card.Text>
+							<Card.Text>
+							In terms of methodologies and practices, I am well versed in Agile, Sprint Planning and the Personal Software Process, which I apply to ensure efficient and high quality development processes. 
+							</Card.Text>
+							<Card.Text>My current goal is to gain hands-on experience in the tech industry and contribute to innovative projects. I aspire to become a web developer and software engineer, creating impactful and efficient web applications and software solutions. Feel free to connect with me on LinkedIn or reach out va email.</Card.Text>
 							
 						</CardBody>
 					</Card>
 				</Col>
-				<Col>Interests/Hobbies </Col>
+				
 				<Col>
 				<Image src={oliImage} roundedCircle fluid/>
 				</Col>
