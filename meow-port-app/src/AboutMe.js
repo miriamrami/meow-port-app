@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
 import myImage from "./imgs/miriamimg.jpg";
 import castleImage from "./imgs/osakaCastle.jpg";
@@ -70,7 +70,12 @@ const AboutMe = () => {
 		</Container>
 		<Container className="c2">
 			<Row className="AM-row2">
-				<Col>A short intro about myself?
+				<Col>
+					<Card>
+						<CardBody>
+							<CardTitle>A Little About Me</CardTitle>
+						</CardBody>
+					</Card>
 					<Card>
 						<CardBody>
 							<Card.Text>
@@ -78,9 +83,6 @@ const AboutMe = () => {
 							</Card.Text>
 							<Card.Text>
 							I have a strong passion for software development, particularly in areas such as web development, data analysis, and mobile app development. I am proficient in several programming languages including Java, PHP, HTML, C, Dart, Javascript, CSS and Python. My experience extends to various frameworks such as React Native, React Bootstrap, Flutter and Bootstrap.
-							</Card.Text>
-							<Card.Text>
-							During my time at the university, I worked on several projects that honed my skills. Notably, with a few other classmates, we developed a data
 							</Card.Text>
 							<Card.Text>
 							In terms of methodologies and practices, I am well versed in Agile, Sprint Planning and the Personal Software Process, which I apply to ensure efficient and high quality development processes. 
