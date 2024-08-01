@@ -52,9 +52,9 @@ const AboutMe = () => {
 					<Row>
 						<Container>
 							<Row>
-								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank">Instagram</Button></Col>
-								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank">Spotify</Button></Col>
-								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank">Steam</Button></Col>
+								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i><text> Instagram </text></Button></Col>
+								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i><text> Spotify </text></Button></Col>
+								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i><text> Steam </text></Button></Col>
 							</Row>
 						</Container>
 					</Row>
