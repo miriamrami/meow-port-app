@@ -28,23 +28,23 @@ const AboutMe = () => {
 				</Col>
 
 				<Col className="nameInfoCol">
-					<Card >
+					<Card className="nameCard">
 						<CardBody>
 							<CardText className="nameCardText">Miriam T Ramirez</CardText>
 						</CardBody>
 					</Card>
 					<Card >
 						<CardBody>
-							<CardText>e-mail: miriamteresaram@gmail.com</CardText>
+							<CardText className="emailText">e-mail: miriamteresaram@gmail.com</CardText>
 						</CardBody>
 					</Card>
 				</Col>
 
 				<Col className="socialsCol">
 					<Row>
-						<Card>
+						<Card className="socialsCard">
 							<Card.Body>
-								<Card.Title>Socials</Card.Title>
+								<Card.Title className="socialsTitle">Socials</Card.Title>
 							</Card.Body>
 						</Card>
 					</Row>
@@ -65,12 +65,12 @@ const AboutMe = () => {
 		<Container className="c2">
 			<Row className="AM-row2">
 				<Col>
-					<Card>
+					<Card className="bioTitleCard">
 						<CardBody>
-							<CardTitle>A Little About Me</CardTitle>
+							<CardTitle className="bioTitle">A Little About Me</CardTitle>
 						</CardBody>
 					</Card>
-					<Card>
+					<Card className="bioParagraphCard">
 						<CardBody>
 							<Card.Text>
 							Hello! My name is Miriam Ramirez and I was born in Ciudad Juarez, Chihuaha but I was raised in El Paso, Texas. I graduated from the University of Texas at El Paso with a Bachelor's of Science in Computer Science and with a minor in Mathematics.

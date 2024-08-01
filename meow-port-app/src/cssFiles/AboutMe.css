@@ -33,13 +33,50 @@ body{
     text-align: center;
   }
 
+  .nameCard{
+    margin: 25px;
+  }
+
   .nameCardText{
-    
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    font-weight: bold;
+  }
+
+  .emailText{
+    font-family: 'Courier New', Courier, monospace;
   }
 
  .socialsCol{
-    place-content: center;
+    place-content:  center;
+ }
+
+
+ .socialsCard{
+  margin: auto;
+ }
+
+ .socialsTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+ }
+
+ .bioTitleCard{
+  margin: 5px;
+  width: 45%;
+  position: relative;
+ }
+
+ .bioTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+ }
+
+ .bioParagraphCard{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
  }
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
