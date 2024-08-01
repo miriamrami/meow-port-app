@@ -30,7 +30,7 @@ const Projects = () => {
 			<Navbar className="home-nav">
 				<Container>
 					<Navbar.Brand href="/">:3</Navbar.Brand>
-						<Nav className="my-navbar">
+						<Nav className="nav-tabs">
 							<Link className="nav-link" to="/Home.js">Home</Link>
 							<Link className="nav-link" to="/AboutMe.js">About Me</Link>
 							<Link className="nav-link active" aria-current="page" to="/Projects.js">Projects</Link>

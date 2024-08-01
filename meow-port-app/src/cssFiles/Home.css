@@ -9,9 +9,8 @@
 }
 
 .nav-tabs{
+
   
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .Home-link {
@@ -26,12 +25,9 @@
 /*The following will be the color for the entire website.*/
 .home-background{
   background-image: url("/src/imgs/kittybackground.jpg");
-  background-size: cover;
-  background-position: center;
+  background-position: top left;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 
-  height: 100vh;
 
 }
 
@@ -53,7 +49,6 @@
 .row2{
   margin: auto;
   width: 55%;
-  border: 3px solid pink;
   padding: 15px;
 
 }
@@ -61,14 +56,15 @@
 .row3{
   margin: auto;
   width: 55%;
-  border: 3px solid pink;
   padding: 15px;
   
 }
 
-.col{
-  background-color: cadetblue;
+.connectContainer{
+  text-align: center;
 }
 
-
+.footerContainer{
+  background-color: grey;
+}
 

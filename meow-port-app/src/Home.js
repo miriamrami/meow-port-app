@@ -12,7 +12,7 @@ const Home = () => {
 		<Navbar className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">:3</Navbar.Brand>
-					<Nav className="my-navbar">
+					<Nav className="nav-tabs">
 						<Link className="nav-link active" aria-current="page" to="/">Home</Link>
 						<Link className="nav-link" to="/AboutMe.js">About Me</Link>
 						<Link className="nav-link" to="/Projects.js">Projects</Link>
@@ -80,7 +80,7 @@ const Home = () => {
 			</Row>
 		</Container>
 
-		<Container fluid>
+		<Container className="connectContainer" fluid>
 			<Row className="row2">
 				<Col>
 					<Card>
@@ -95,7 +95,7 @@ const Home = () => {
 			</Row>
 		</Container>
 		
-		<Container fluid>
+		<Container className="footerContainer"fluid>
 			<Row className="row3">
 				<Col>
 					Website by meowzilla =^-w-^=
