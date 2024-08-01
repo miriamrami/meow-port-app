@@ -126,6 +126,14 @@ const AboutMe = () => {
 			</Row>
 		</Container>
 
+		<Container className="footerContainer"fluid>
+			<Row className="row3">
+				<Col>
+					Website by meowzilla =^-w-^=
+				</Col>
+			</Row>
+		</Container>
+
 		</div>
 	</body>
 
