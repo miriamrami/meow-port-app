@@ -44,7 +44,7 @@ const Home = () => {
 		</Container>
 
 		<Container>
-			<Row className="row1">
+			<Row className="row2">
 				<Col>
 					<Container>
 							<Card className="techStackCard">

@@ -10,7 +10,6 @@
 
 .home-nav{
   font-weight: bold;
-
 }
 
 .Home-link {
@@ -40,15 +39,6 @@
   text-shadow: 3px 3px navy;
 }
 
-.row1{
-  margin: auto;
-  width: 55%;
-  border: 3px ;
-  padding: 15px;
-
-}
-
-
 .cardWelcome{
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
@@ -65,18 +55,25 @@
   font-weight: bold;
 }
 
+.row1{
+  margin: auto;
+  width: 49%;
+  border: 3px ;
+  padding: 15px;
+
+}
+
 .row2{
   margin: auto;
-  width: 55%;
+  width: 99%;
   padding: 15px;
 
 }
 
 .row3{
   margin: auto;
-  width: 55%;
   padding: 15px;
-  
+  text-align: center;
 }
 
 .connectContainer{
