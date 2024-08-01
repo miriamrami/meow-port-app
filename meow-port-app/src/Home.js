@@ -59,15 +59,69 @@ const Home = () => {
         											<Accordion.Header>Programming Languages</Accordion.Header>
         												<Accordion.Body>
 														<ul>
-              												<li>Python</li>
-              												<li>Java</li>
-              												<li>Dart</li>
-              												<li>HTML</li>
-              												<li>JavaScript</li>
-              												<li>TypeScript</li>
-              												<li>CSS</li>
-              												<li>PHP</li>
-              												<li>SQL</li>
+              												<li>Python
+																<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>Java
+															 	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>Dart
+															  	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>HTML
+															  	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>JavaScript
+															  	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>TypeScript
+															  	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>CSS
+															  	<i className="bi-star-fill"></i>
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>PHP
+															  <i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
+              												<li>SQL
+																<i className="bi-star-fill"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+																<i className="bi-star"></i>
+															</li>
             											</ul>
         												</Accordion.Body>
 												</Accordion.Item>
