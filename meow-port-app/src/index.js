@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
 import './cssFiles/customCursor.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
