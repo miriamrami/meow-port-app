@@ -55,6 +55,10 @@
   font-weight: bold;
 }
 
+li{
+  list-style-type: none;
+}
+
 .row1{
   margin: auto;
   width: 49%;

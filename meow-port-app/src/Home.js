@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem} from "react-bootstrap";
 import ghcImg from "./imgs/miriamAtGHC.jpg";
 
 const Home = () => {
@@ -54,20 +54,56 @@ const Home = () => {
 									<ListGroup as="ol">
       									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
         									<div className="ms-2 me-auto">
-          										<div className="fw-bold">Programming Languages</div>
-												Java, PHP, HTML, C, Dart, Javascript, CSS, Python
+											<Accordion>
+    											<Accordion.Item eventKey="0">
+        											<Accordion.Header>Programming Languages</Accordion.Header>
+        												<Accordion.Body>
+														<ul>
+              												<li>Python</li>
+              												<li>Java</li>
+              												<li>Dart</li>
+              												<li>HTML</li>
+              												<li>JavaScript</li>
+              												<li>TypeScript</li>
+              												<li>CSS</li>
+              												<li>PHP</li>
+              												<li>SQL</li>
+            											</ul>
+        												</Accordion.Body>
+												</Accordion.Item>
+											</Accordion>
 											</div>
       									</ListGroup.Item>
       									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
         									<div className="ms-2 me-auto">
-          										<div className="fw-bold">Frameworks</div>
-          										React Native, React Bootstrap, Flutter Bootstrap
+											<Accordion >
+    											<Accordion.Item eventKey="1">
+        											<Accordion.Header>Frameworks</Accordion.Header>
+        												<Accordion.Body>
+														<ul>
+              												<li>React Native</li>
+              												<li>React Native</li>
+              												<li>Flutter Bootstrap</li>
+            											</ul>
+        												</Accordion.Body>
+												</Accordion.Item>
+											</Accordion>
         									</div>
       									</ListGroup.Item>
 										  <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
         									<div className="ms-2 me-auto">
-          										<div className="fw-bold">Methodologies & Practices</div>
-          										Agile, Sprint Planning, Personal Software Process
+											<Accordion >
+    											<Accordion.Item eventKey="2">
+        											<Accordion.Header>Methodologies and Practices</Accordion.Header>
+        												<Accordion.Body>
+														<ul>
+              												<li>Agile</li>
+              												<li>Aprint Planning</li>
+              												<li>Personal Software Process</li>
+            											</ul>
+        												</Accordion.Body>
+												</Accordion.Item>
+											</Accordion>
         									</div>
       									</ListGroup.Item>
     								</ListGroup>
