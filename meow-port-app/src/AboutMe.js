@@ -6,7 +6,6 @@ import myImage from "./imgs/miriamimg.jpg";
 import castleImage from "./imgs/osakaCastle.jpg";
 import towerImage from "./imgs/tokyoTower.jpg";
 import rockefellerImage from "./imgs/rockefellerTower.jpg";
-import oliImage from "./imgs/bbOliver.jpg";
 
 const AboutMe = () => {
 	return (
@@ -94,7 +93,7 @@ const AboutMe = () => {
 				</Col>
 				
 				<Col>
-				<Image src={oliImage} roundedCircle fluid/>
+				<Image src="" roundedCircle fluid/>
 				</Col>
 			</Row>
 		</Container>
@@ -104,7 +103,7 @@ const AboutMe = () => {
 					<Carousel>
 						<Carousel.Item>
 							<Container className="c4">
-							<img className="d-block w-100" src={castleImage} alt="First Slide"/>
+							<img className="d-block w-100" src="" alt="First Slide"/>
 							<Carousel.Caption>
 								<h3>Title</h3>
 								<p>insert description here?</p>
@@ -113,7 +112,7 @@ const AboutMe = () => {
 						</Carousel.Item>
 						<Carousel.Item>
 							<Container>
-							<img className="d-block w-100" src={towerImage} alt="Second Slide"/>
+							<img className="d-block w-100" src="" alt="Second Slide"/>
 							<Carousel.Caption>
 								<h3>Title</h3>
 								<p>insert description here?</p>
@@ -121,7 +120,7 @@ const AboutMe = () => {
 							</Container>
 						</Carousel.Item>
 						<Carousel.Item>
-							<img className="d-block w-100" src={rockefellerImage} alt="Third Slide"/>
+							<img className="d-block w-100" src="" alt="Third Slide"/>
 							<Carousel.Caption>
 								<h3>Title</h3>
 								<p>insert description here?</p>
