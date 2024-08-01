@@ -76,6 +76,9 @@ const Home = () => {
 							</Card>
 					</Container>
 				</Col>
+				<Col>
+					ENTER A COMMENT SECTION HERE
+				</Col>
 			</Row>
 		</Container>
 
