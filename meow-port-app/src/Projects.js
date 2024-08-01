@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card} from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner} from "react-bootstrap";
 import WA1 from "./Demos/wApp1.png";
 import WA2 from "./Demos/wApp2.png";
 import WA3 from "./Demos/wApp3.png";
@@ -25,11 +25,11 @@ const Projects = () => {
 
 	return (
 	<body>
-		<div className="ProjectPage">
+		<div className="home-background">
 		
-			<Navbar className="home-nav">
+			<Navbar sticky="top" className="home-nav">
 				<Container>
-					<Navbar.Brand href="/">:3</Navbar.Brand>
+					<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
 						<Nav className="nav-tabs">
 							<Link className="nav-link" to="/Home.js">Home</Link>
 							<Link className="nav-link" to="/AboutMe.js">About Me</Link>
@@ -145,15 +145,19 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
 				  <Accordion.Item eventKey="2">
-        			<Accordion.Header>Accordion Item #3</Accordion.Header>
+        			<Accordion.Header>Project #3</Accordion.Header>
         				<Accordion.Body>
-							Enter description of info of project here
+							<Spinner animation="grow" variant="info" size="sm"/>
+							Work in progress  
+							<Spinner animation="grow" variant="info" size="sm"/>
         				</Accordion.Body>
       			</Accordion.Item>
       			<Accordion.Item eventKey="3">
-        			<Accordion.Header>Accordion Item #4</Accordion.Header>
+        			<Accordion.Header>Project #4</Accordion.Header>
         				<Accordion.Body>
-							Project info goes here 
+							<Spinner animation="grow" variant="info" size="sm"/>
+							Work in progress  
+							<Spinner animation="grow" variant="info" size="sm" />
         				</Accordion.Body>
       			</Accordion.Item>
     		</Accordion>

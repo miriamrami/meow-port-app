@@ -1,16 +1,16 @@
 .home-nav {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  
+
 }
 
 .nameHeader{
   text-align: center;
 }
 
-.nav-tabs{
+.home-nav{
+  font-weight: bold;
 
-  
 }
 
 .Home-link {
@@ -31,6 +31,15 @@
 
 }
 
+.myNameContainer{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nameHeader{
+  color:white;
+  text-shadow: 3px 3px navy;
+}
+
 .row1{
   margin: auto;
   width: 55%;
@@ -41,9 +50,19 @@
 
 
 .cardWelcome{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
   text-align: center;
   height: auto;
   width: auto;
+}
+
+.techStackCard{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tsTitle{
+  font-weight: bold;
 }
 
 .row2{
@@ -66,5 +85,7 @@
 
 .footerContainer{
   background-color: grey;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 

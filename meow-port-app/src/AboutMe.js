@@ -11,9 +11,9 @@ const AboutMe = () => {
 	return (
 	<body>
 		<div className="home-background">
-		<Navbar className="home-nav">
+		<Navbar sticky="top" className="home-nav">
 			<Container>
-				<Navbar.Brand href="/">:3</Navbar.Brand>
+				<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
 					<Nav className="nav-tabs">
 						<Link className="nav-link" to="/">Home</Link>
 						<Link className="nav-link active" aria-current="page" to="/AboutMe.js">About Me</Link>
@@ -28,17 +28,12 @@ const AboutMe = () => {
 				</Col>
 
 				<Col className="nameInfoCol">
-					<Card bg="primary">
+					<Card >
 						<CardBody>
 							<CardText className="nameCardText">Miriam T Ramirez</CardText>
 						</CardBody>
 					</Card>
-					<Card>
-						<CardBody>
-							<Card.Text></Card.Text>
-						</CardBody>
-					</Card>
-					<Card bg="primary">
+					<Card >
 						<CardBody>
 							<CardText>e-mail: miriamteresaram@gmail.com</CardText>
 						</CardBody>

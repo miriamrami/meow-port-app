@@ -9,9 +9,9 @@ const Home = () => {
 	<body>
 		<div className="home-background">
 
-		<Navbar className="home-nav">
+		<Navbar sticky="top" className="home-nav">
 			<Container>
-				<Navbar.Brand href="/">:3</Navbar.Brand>
+				<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
 					<Nav className="nav-tabs">
 						<Link className="nav-link active" aria-current="page" to="/">Home</Link>
 						<Link className="nav-link" to="/AboutMe.js">About Me</Link>
@@ -20,7 +20,7 @@ const Home = () => {
 			</Container>
 		</Navbar>
 
-		<Container>
+		<Container className="myNameContainer">
 			<Row>
 				<Col>
 					<h1 className="nameHeader">Miriam Ramirez</h1>
@@ -33,11 +33,10 @@ const Home = () => {
 				<Col>
 					<Container>
 					<Card className="cardWelcome">
-					<Card.Img variant="top" src={ghcImg} rounded fluid />
+						<Card.Img variant="top" src={ghcImg} rounded fluid />
 						<Card.Body>
-							<Card.Text>Pictured, me at the 2019 Grace Hopper Conference held in Orlando, Florida.</Card.Text>
+							<Card.Text>Me at the 2019 Grace Hopper Conference held in Orlando, Florida.</Card.Text>
 						</Card.Body>
-					
 					</Card>
 					</Container>
 				</Col>
@@ -48,9 +47,9 @@ const Home = () => {
 			<Row className="row1">
 				<Col>
 					<Container>
-							<Card>
+							<Card className="techStackCard">
 								<Card.Body>
-									<Card.Title>Tech Stack</Card.Title>
+									<Card.Title className="tsTitle">Tech Stack</Card.Title>
 									<Card.Text>
 									<ListGroup as="ol">
       									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
@@ -80,20 +79,7 @@ const Home = () => {
 			</Row>
 		</Container>
 
-		<Container className="connectContainer" fluid>
-			<Row className="row2">
-				<Col>
-					<Card>
-						<Card.Body>
-							<Card.Title>
-								Let's Connect!
-							</Card.Title>
-							<Button variant="Link" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank">LinkedIn</Button>
-						</Card.Body>
-					</Card>
-				</Col>
-			</Row>
-		</Container>
+
 		
 		<Container className="footerContainer"fluid>
 			<Row className="row3">
