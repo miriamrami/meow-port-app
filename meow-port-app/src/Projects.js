@@ -162,11 +162,11 @@ const Projects = () => {
       			</Accordion.Item>
     		</Accordion>
 		</Container>
-		<Container fluid>
+		<Container className="footerContainer"fluid>
 			<Row className="row3">
-			
-					Website by meowzillaa =^-w-^=
-			
+				<Col>
+					Website by meowzilla =^-w-^=
+				</Col>
 			</Row>
 		</Container>
 		</div>
