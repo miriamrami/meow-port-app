@@ -167,7 +167,7 @@ const Home = () => {
 					</Container>
 				</Col>
 				<Col>
-					ENTER A COMMENT SECTION HERE
+					[Work in Progress]
 				</Col>
 			</Row>
 		</Container>

@@ -15,11 +15,9 @@ body{
     width: 100%;
 }
 
-.AM-row{
+.AM-row1{
     flex: 1;
-    background-color: white;
     padding: 20px;
-    border: 1px solid #ccc;
 }
   
   .img1, .img2, .img3{
@@ -75,7 +73,7 @@ body{
     position: absolute;
     background: none;
     border: none;
-    top: 15px;
+    top: 19px;
     left: 15px;
  }
 
@@ -88,21 +86,24 @@ body{
  .iconsRow{
   display: flex;
   position: absolute;
-  top: 65px;
+  top: 75px;
   left: 24px;
  }
 
  .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin{
   flex:auto;
-  font-size: 35px;
+  font-size: 33px;
   height:auto;
  }
 
 
  .bioTitleCard{
   margin: 5px;
-  width: 45%;
+  width: 95%;
+  bottom: 12px;
   position: relative;
+  background: none;
+  border: none;
  }
 
  .bioTitle{
@@ -110,23 +111,17 @@ body{
   font-weight: bold;
   text-align: center;
   font-size: medium;
+  font-size: 19px;
  }
 
  .bioParagraphCard{
   font-family: 'Courier New', Courier, monospace;
   font-size: small;
+  bottom: 25px;
  }
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
-.row{
-    border-style: dashed;
-    border-color: white;
-}
 
-.col{
-    border-style: dashed;
-    border-color: gray;
-}
 
 .c3{
   place-content: center;
