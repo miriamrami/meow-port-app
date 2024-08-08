@@ -21,9 +21,11 @@ const AboutMe = () => {
 				</Nav>
 			</Container>
 		</Navbar>
+
+		
 		<Container className="c1">
 			<Row className="AM-row1">
-				<Col>
+				<Col className="miriamImage">
 					<Image src={myImage} roundedCircle fluid/>
 				</Col>
 
@@ -51,10 +53,12 @@ const AboutMe = () => {
 
 					<Row>
 						<Container>
-							<Row>
-								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i><text> Instagram </text></Button></Col>
-								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i><text> Spotify </text></Button></Col>
-								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i><text> Steam </text></Button></Col>
+							<Row className="iconsRow">
+								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button></Col>
+								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button></Col>
+								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button></Col>
+								<Col><Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button></Col>
+
 							</Row>
 						</Container>
 					</Row>
@@ -82,7 +86,7 @@ const AboutMe = () => {
 							In terms of methodologies and practices, I am well versed in Agile, Sprint Planning and the Personal Software Process, which I apply to ensure efficient and high quality development processes. 
 							</Card.Text>
 							<Card.Text>My current goal is to gain hands-on experience in the tech industry and contribute to innovative projects. I aspire to become a web developer and software engineer, creating impactful and efficient web applications and software solutions.</Card.Text>
-							<Card.Text> Feel free to connect with me on LinkedIn or reach out va email.</Card.Text>
+							<Card.Text> Feel free to connect with me on LinkedIn or reach out via email.</Card.Text>
 						</CardBody>
 					</Card>
 				</Col>

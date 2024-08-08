@@ -3,6 +3,7 @@
 
 }
 
+
 body{
     background-color: aliceblue;
 }
@@ -51,25 +52,52 @@ body{
 
   .emailCard{
     background: none;
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    border: none;
+    
   }
 
   .emailText{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    
   }
 
  .socialsCol{
-    place-content:  center;
+   position: relative;
  }
 
 
  .socialsCard{
-  margin: auto;
+    position: absolute;
+    background: none;
+    border: none;
+    top: 15px;
+    left: 15px;
  }
 
  .socialsTitle{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  font-size: 23px;
  }
+
+ .iconsRow{
+  display: flex;
+  position: absolute;
+  top: 65px;
+  left: 24px;
+ }
+
+ .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin{
+  flex:auto;
+  font-size: 35px;
+  height:auto;
+ }
+
 
  .bioTitleCard{
   margin: 5px;
