@@ -31,16 +31,26 @@ body{
   .nameInfoCol{
     place-content: center;
     text-align: center;
+    position: relative;
   }
 
   .nameCard{
-    margin: 25px;
+    position: absolute;
+    background: none;
+    border: none;
+    top: 15px;
+    left: 15px;
+    
   }
 
   .nameCardText{
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .emailCard{
+    background: none;
   }
 
   .emailText{

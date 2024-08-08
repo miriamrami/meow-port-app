@@ -10,6 +10,9 @@
 
 .home-nav{
   font-weight: bold;
+  background-color: lightskyblue;
+  margin-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .Home-link {

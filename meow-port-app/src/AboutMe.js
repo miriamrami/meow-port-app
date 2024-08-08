@@ -33,7 +33,7 @@ const AboutMe = () => {
 							<CardText className="nameCardText">Miriam T Ramirez</CardText>
 						</CardBody>
 					</Card>
-					<Card >
+					<Card className="emailCard">
 						<CardBody>
 							<CardText className="emailText">e-mail: miriamteresaram@gmail.com</CardText>
 						</CardBody>
