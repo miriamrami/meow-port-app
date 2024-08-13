@@ -38,7 +38,7 @@ const Projects = () => {
 				</Container>
 			</Navbar>
 		<Container>
-			<Accordion>
+			<Accordion className="accordionComponent">
       			<Accordion.Item eventKey="0">
         			<Accordion.Header>Cross Platform Mobile App Development</Accordion.Header>
         				<Accordion.Body>

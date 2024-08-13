@@ -136,8 +136,8 @@ const Home = () => {
         												<Accordion.Body>
 														<ul>
               												<li>React Native</li>
-              												<li>React Native</li>
-              												<li>Flutter Bootstrap</li>
+              												<li>Bootstrap</li>
+              												<li>Flutter</li>
             											</ul>
         												</Accordion.Body>
 												</Accordion.Item>

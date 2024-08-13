@@ -10,3 +10,8 @@
     margin-bottom: 30px;
     margin-left: 50px;
 }
+
+.accordionComponent{
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
