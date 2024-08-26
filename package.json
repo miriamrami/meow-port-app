@@ -3,5 +3,20 @@
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react-bootstrap": "^2.10.1"
-  }
+  },
+
+  
+    "name": "miris website",
+    "version": "0.1.0",
+    "homepage": "https://miriamrami.github.io/react-gh-pages",
+    "private": true,
+  
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+
 }
+
