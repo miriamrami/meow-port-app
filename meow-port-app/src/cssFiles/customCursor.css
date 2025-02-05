@@ -1,7 +1,0 @@
-body{
-    cursor: src('./icons/KittyPaw.jpg'), auto;
-}
-
-.custom-cursor{
-    cursor: src('./icons//KittyPaw.jpg'), auto;
-}

@@ -1,0 +1,129 @@
+.AboutMe{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+.AboutMe-container{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AM-row1{
+    flex: 1;
+    padding: 20px;
+}
+  
+  .img1, .img2, .img3{
+    transform: scale(.5);
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .nameInfoCol{
+    place-content: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .nameCard{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 15px;
+    left: 15px;
+    
+  }
+
+  .nameCardText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .emailCard{
+    background: none;
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    border: none;
+    
+  }
+
+  .emailText{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    
+  }
+
+ .socialsCol{
+   position: relative;
+ }
+
+
+ .socialsCard{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 19px;
+    left: 15px;
+ }
+
+ .socialsTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 23px;
+ }
+
+ .iconsRow{
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: 24px;
+ }
+
+ .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin{
+  flex:auto;
+  font-size: 33px;
+  height:auto;
+ }
+
+
+ .bioTitleCard{
+  margin: 5px;
+  width: 95%;
+  bottom: 12px;
+  position: relative;
+  background: none;
+  border: none;
+ }
+
+ .bioTitle{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: medium;
+  font-size: 19px;
+ }
+
+ .bioParagraphCard{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  bottom: 25px;
+ }
+
+/*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
+
+
+.c3{
+  place-content: center;
+
+}
