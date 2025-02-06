@@ -11,7 +11,7 @@ const Home = () => {
 
 		<Navbar sticky="top" className="home-nav">
 			<Container>
-				<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
+				<Navbar.Brand href="/Home.js">=^-w-^=</Navbar.Brand>
 					<Nav className="nav-tabs">
 						<Link className="nav-link active" aria-current="page" to="/">Home</Link>
 						<Link className="nav-link" to="/AboutMe.js">About Me</Link>
