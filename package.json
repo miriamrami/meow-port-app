@@ -14,7 +14,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "publish": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
