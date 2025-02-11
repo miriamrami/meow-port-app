@@ -87,8 +87,14 @@ li{
 }
 
 .footerContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   background-color: grey;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+
+
+
 
