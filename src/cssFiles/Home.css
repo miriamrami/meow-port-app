@@ -27,8 +27,7 @@
 /*The following will be the color for the entire website.*/
 .home-background{
   background-image: url("/src/imgs/kittybackground.jpg");
-  background-position: top left;
-  background-repeat: no-repeat;
+  background-size: cover;
 
 
 }
