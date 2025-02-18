@@ -49,51 +49,9 @@
 
 }
 
-/*   COMMENTING OUT BECAUSE THEYRE NOT BEING USED IN THE JS
-
-.cardWelcome{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-  text-align: center;
-  height: auto;
-  width: auto;
-}
-
-.techStackCard{
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.tsTitle{
-  font-weight: bold;
-}
-
-li{
-  list-style-type: none;
-}
-*/
-
-.row1{
-  margin: auto;
-  width: 49%;
-  border: 3px ;
-  padding: 15px;
-
-}
-
-.row2{
-  margin: auto;
-  width: 99%;
-  padding: 15px;
-
-}
-
 .row3{
   margin: auto;
   padding: 15px;
-  text-align: center;
-}
-
-.connectContainer{
   text-align: center;
 }
 
