@@ -96,39 +96,7 @@ const AboutMe = () => {
 				</Col>
 			</Row>
 		</Container>
-		<Container className="c3">
-			<Row className="AM-row3">
-				<Col>
-					<Carousel>
-						<Carousel.Item>
-							<Container className="c4">
-							<img className="d-block w-100" src={castleImage} alt="First Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-							</Container>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Container>
-							<img className="d-block w-100" src={towerImage} alt="Second Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-							</Container>
-						</Carousel.Item>
-						<Carousel.Item>
-							<img className="d-block w-100" src={rockefellerImage} alt="Third Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-						</Carousel.Item>
-					</Carousel>
-				</Col>
-			</Row>
-		</Container>
+		
 
 		<Container className="footerContainer"fluid>
 			<Row className="row3">
