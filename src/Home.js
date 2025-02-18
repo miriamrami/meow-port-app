@@ -28,6 +28,8 @@ const Home = () => {
 			</Row>
 		</Container>
 
+        {/* REMOVING FOR RIGHT MEOW
+
 		<Container fluid>
 			<Row className="row1">
 				<Col>
@@ -42,8 +44,11 @@ const Home = () => {
 				</Col>
 			</Row>
 		</Container>
+		*/}
 
+		
 		<Container>
+		{/*	REMOVING TECHSTACK CARD AND WORK IN PROGRESS CARD FOR RIGHT NOW
 			<Row className="row2">
 				<Col>
 					<Container>
@@ -166,10 +171,14 @@ const Home = () => {
 							</Card>
 					</Container>
 				</Col>
+				
+
+
 				<Col>
 					[Work in Progress]
 				</Col>
 			</Row>
+			*/}
 		</Container>
 
 
