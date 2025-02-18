@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem} from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem, Image} from "react-bootstrap";
 import ghcImg from "./imgs/miriamAtGHC.jpg";
+import myImage from "./imgs/miriamimg.jpg";
 
 const Home = () => {
 	return (
 	<body>
 		<div className="home-background">
 
+		{/*THIS IS THE NAVBAR CONTAINER */}
 		<Navbar sticky="top" className="home-nav">
 			<Container>
 				<Navbar.Brand href="/Home.js">=^-w-^=</Navbar.Brand>
@@ -20,11 +22,16 @@ const Home = () => {
 			</Container>
 		</Navbar>
 
-		<Container className="myNameContainer">
+		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
+		<Container className="home-header-container">
 			<Row>
-				<Col>
-					<h1 className="nameHeader">Miriam Ramirez</h1>
+				<Col className="home-messsage">
+					<p1>Howdy and welcome to my portfolio! My name is Miriam Ramirez. </p1>
 				</Col>
+				<Col className="img-col">
+					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
+				</Col>
+
 			</Row>
 		</Container>
 
