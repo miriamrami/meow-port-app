@@ -23,7 +23,7 @@ const Home = () => {
 
 		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
 		<Container className="home-header-container">
-			<Row>
+			<Row className="row1">
 				<Col className="home-messsage">
 					<CardTitle className="card-title-message">
 						Howdy! I’m <mark>Miriam Ramirez, a Computer Science graduate</mark> with a passion for building innovative digital solutions. I’m particularly drawn to UI/UX design, where I get to blend creativity and functionality to create seamless user experiences. I’m also excited about <mark>mobile and web development</mark>, <mark>software engineering</mark>, and someday, <mark>game development</mark>.
@@ -38,7 +38,7 @@ const Home = () => {
 
 		{/*THIS WILL BE THE CONTAINER THAT TALKS ABOUT MY SKILLS - TECH STACK + RESUME*/}
 		<Container className="home-body-container">
-			<Row>
+			<Row className="row2">
 				<Container className="tech-stack-container">
 					Write about tech stack here
 				</Container>
@@ -48,10 +48,9 @@ const Home = () => {
 				</Container>
 
 			</Row>
-
 		</Container>
 
-		
+		{/*CONTAINER WITH THE SITE FOOTER*/}
 		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
