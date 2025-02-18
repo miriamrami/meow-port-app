@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem, Image} from "react-bootstrap";
+import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem, Image, CardTitle} from "react-bootstrap";
 import ghcImg from "./imgs/miriamAtGHC.jpg";
 import myImage from "./imgs/miriamimg.jpg";
 
@@ -26,7 +26,9 @@ const Home = () => {
 		<Container className="home-header-container">
 			<Row>
 				<Col className="home-messsage">
-					<p1>Howdy and welcome to my portfolio! My name is Miriam Ramirez. </p1>
+					<CardTitle className="card-title-message">
+						Howdy! I’m <mark>Miriam Ramirez, a Computer Science graduate</mark> with a passion for building innovative digital solutions. I’m particularly drawn to UI/UX design, where I get to blend creativity and functionality to create seamless user experiences. I’m also excited about <mark>mobile and web development</mark>, <mark>software engineering</mark>, and someday, <mark>game development</mark>.
+					</CardTitle>
 				</Col>
 				<Col className="img-col">
 					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
@@ -34,6 +36,22 @@ const Home = () => {
 
 			</Row>
 		</Container>
+
+		{/*THIS WILL BE THE CONTAINER THAT TALKS ABOUT MY SKILLS - TECH STACK + RESUME*/}
+		<Container className="home-body-container">
+			<Row>
+				<Container className="tech-stack-container">
+					Write about tech stack here
+				</Container>
+
+				<Container className="resume-document-container">
+					Include resume here
+				</Container>
+
+			</Row>
+
+		</Container>
+
 
         {/* REMOVING FOR RIGHT MEOW
 
@@ -53,9 +71,9 @@ const Home = () => {
 		</Container>
 		*/}
 
-		
+		{/*
 		<Container>
-		{/*	REMOVING TECHSTACK CARD AND WORK IN PROGRESS CARD FOR RIGHT NOW
+			REMOVING TECHSTACK CARD AND WORK IN PROGRESS CARD FOR RIGHT NOW
 			<Row className="row2">
 				<Col>
 					<Container>
@@ -185,12 +203,12 @@ const Home = () => {
 					[Work in Progress]
 				</Col>
 			</Row>
-			*/}
+			
 		</Container>
-
+*/}
 
 		
-		<Container className="footerContainer"fluid>
+		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
 					Website by meowzilla =^-w-^=
