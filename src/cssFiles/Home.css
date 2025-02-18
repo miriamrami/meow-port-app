@@ -1,11 +1,8 @@
-.home-nav {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-
-}
 
 .nameHeader{
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
 
 .home-nav{
@@ -13,6 +10,12 @@
   background-color: lightskyblue;
   margin-bottom: 5px;
   padding-bottom: 2px;
+  display: flex;
+  width: 100%;
+
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace; 
+
 }
 
 .Home-link {
@@ -22,12 +25,21 @@
 /*Figure out how to custmize the tabs -_-*/
 .body{
   background-color: lightblue;
+  height: 100%;
+  margin: 0;
 }
 
-/*The following will be the color for the entire website.*/
+/*The following will be the background display for the entire website.*/
 .home-background{
   background-image: url("/src/imgs/kittybackground.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 
 
 }
