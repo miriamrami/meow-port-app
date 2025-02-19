@@ -31,9 +31,9 @@ const Home = () => {
 		<Container className="first-container">
 			<Row className="welcome-message-row">
 				<Col className="home-messsage">
-					<h2>A little about me...</h2>
+					<h1>A little about me...</h1>
 					<Card className="card-message">
-					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE. I aspire to create apps and websites that are both functional and beautiful.
+					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE, I aspire to create apps and websites that are both functional and beautiful.
 					</Card>
 				</Col>
 				<Col className="miriam-image">
@@ -46,17 +46,43 @@ const Home = () => {
 		{/*THIS WILL BE THE CONTAINER THAT TALKS ABOUT MY SKILLS - TECH STACK + RESUME*/}
 		<Container className="second-container">
 			<Row className="tech-resume-row">
-				<Col className="tech-stack">
-					<h2>Tech Stack</h2>
-					<Card className="tech-card">Write about tech stack here</Card>
+				<Col className="PL-stack">
+					<h2>Programming Languages</h2>
+					<Card className="tech-card">
+						<ul>
+							<li>Javascript</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Java</li>
+							<li>Python</li>
+							<li>Dart</li>
+						</ul>
+					</Card>
 				</Col>
 
-				<Col className="resume-document">
-					<h3>My Resume</h3>
+				<Col className="FT-stack">
+					<h3>Frameworks & Tools</h3>
 					<Card className="resume-card">
-						<Button onClick={() => window.open("", '_blank')}>
-							Check it out!
-						</Button>
+						<ul>
+							<li>Bootstrap</li>
+							<li>React JS</li>
+							<li>Flutter</li>
+							<li>Firebase</li>
+							<li>Android Studio</li>
+						</ul>
+					</Card>
+				</Col>
+
+				<Col className="strengths-stack">
+					<h3>Strengths</h3>
+					<Card className="strengths-card">
+						<ul>
+							<li>Cross-platform development</li>
+							<li>API integration</li>
+							<li>technical communication</li>
+							<li>Adaptability</li>
+							<li>Quick Learning</li>
+						</ul>
 					</Card>
 				</Col>
 

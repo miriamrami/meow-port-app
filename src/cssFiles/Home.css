@@ -73,11 +73,14 @@ p{
 }
 
 .card-message{
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
+  padding: 65px;
+  background-color: rgb(4, 193, 245);
+  border-radius: 60px;
   
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
 
 }
 
@@ -102,22 +105,24 @@ p{
   align-items: center;
 }
 
-.tech-stack,
-.resume-document{
+.PL-stack,
+.FT-stack,
+.strengths-stack{
   padding: 25px;
   background-color: palevioletred;
   border-radius: 10px;
   margin: 15px;
-  text-align: center;
+  text-align: left;
 
   font-family: 'Courier New', Courier, monospace;
 }
 
-.tech-card, .resume-card{
+.tech-card, .resume-card, .strengths-card{
   background-color: pink;
   color: white;
   font-weight: bold;
-  align-items: center;
+  align-items: left;
+  padding: 15px;
 }
 
 button{
@@ -129,6 +134,7 @@ h2, h3{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: pink;
+  font-size: 27px;
 }
 
 .footer-container{
