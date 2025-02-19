@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom
 import Home from "./Home.js";
 import AboutMe from "./AboutMe.js";
 import Projects from "./Projects.js";
+import UnderConstruction from './UnderConstruction.js';
 
 
 function App() {
