@@ -22,14 +22,14 @@ const Home = () => {
 		</Navbar>
 
 		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
-		<Container className="home-header-container">
-			<Row className="row1">
+		<Container className="first-container">
+			<Row className="welcome-message-row">
 				<Col className="home-messsage">
 					<CardTitle className="card-title-message">
 						Howdy! I’m <mark>Miriam Ramirez, a Computer Science graduate</mark> with a passion for building innovative digital solutions. I’m particularly drawn to UI/UX design, where I get to blend creativity and functionality to create seamless user experiences. I’m also excited about <mark>mobile and web development</mark>, <mark>software engineering</mark>, and someday, <mark>game development</mark>.
 					</CardTitle>
 				</Col>
-				<Col className="img-col">
+				<Col className="miriam-image">
 					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
 				</Col>
 
@@ -37,22 +37,24 @@ const Home = () => {
 		</Container>
 
 		{/*THIS WILL BE THE CONTAINER THAT TALKS ABOUT MY SKILLS - TECH STACK + RESUME*/}
-		<Container className="home-body-container">
-			<Row className="row2">
-				<Container className="tech-stack-container">
+		<Container className="second-container">
+			<Row className="tech-resume-row">
+				<Col className="tech-stack">
+					<h2>Tech Stack</h2>
 					Write about tech stack here
-				</Container>
+				</Col>
 
-				<Container className="resume-document-container">
+				<Col className="resume-document">
+					<h3>Resume</h3>
 					Include resume here
-				</Container>
+				</Col>
 
 			</Row>
 		</Container>
 
 		{/*CONTAINER WITH THE SITE FOOTER*/}
 		<Container className="footer-container"fluid>
-			<Row className="row3">
+			<Row className="footer-row">
 				<Col>
 					Website by meowzilla =^-w-^=
 				</Col>

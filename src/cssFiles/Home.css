@@ -1,5 +1,6 @@
 .home-nav{
   position: sticky;
+  top:0;
   font-weight: bold;
   background-color: lightskyblue;
   margin-bottom: 5px;
@@ -49,17 +50,22 @@
 
 }
 
-.row3{
+.footer-row{
   margin: auto;
   padding: 15px;
   text-align: center;
 }
 
+
 .footer-container{
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+  margin-top: 20px;
   background-color: grey;
+
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
