@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
 import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem, Image, CardTitle} from "react-bootstrap";
 import myImage from "./imgs/miriamimg.jpg";
+import myResume from "./Docs/Miriam_Resume_.pdf";
 
 const Home = () => {
 	return (
@@ -47,12 +48,16 @@ const Home = () => {
 			<Row className="tech-resume-row">
 				<Col className="tech-stack">
 					<h2>Tech Stack</h2>
-					<Card>Write about tech stack here</Card>
+					<Card className="tech-card">Write about tech stack here</Card>
 				</Col>
 
 				<Col className="resume-document">
-					<h3>Resume</h3>
-					<Card>Insert resume here</Card>
+					<h3>My Resume</h3>
+					<Card className="resume-card">
+						<Button onClick={() => window.open("", '_blank')}>
+							Check it out!
+						</Button>
+					</Card>
 				</Col>
 
 			</Row>
