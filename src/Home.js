@@ -79,7 +79,7 @@ const Home = () => {
 						<ul>
 							<li>Cross-platform development</li>
 							<li>API integration</li>
-							<li>technical communication</li>
+							<li>Technical communication</li>
 							<li>Adaptability</li>
 							<li>Quick Learning</li>
 						</ul>

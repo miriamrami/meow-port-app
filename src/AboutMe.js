@@ -22,6 +22,7 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
+		
 
 
 
