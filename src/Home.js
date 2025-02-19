@@ -89,6 +89,21 @@ const Home = () => {
 			</Row>
 		</Container>
 
+		<Container className="contact-me-block">
+			<Row className="contact-row">
+				<h2>Lets Keep in Touch!</h2>
+				<Col className="gmail-col">
+					<p5>email: miriamteresaram@gmail.com</p5>
+				</Col>
+				<Col className="linkedin-col">
+					<a href="https://www.linkedin.com/in/miriamtramirez" target="_blank">www.linkedin.com/in/miriamtramirez </a>
+				</Col>
+				<Col className="github-col">
+					<a href="https://github.com/miriamrami" target="_blank">github.com/miriamrami </a>
+				</Col>
+			</Row>
+		</Container>
+
 		{/*CONTAINER WITH THE SITE FOOTER*/}
 		<Container className="footer-container"fluid>
 			<Row className="footer-row">

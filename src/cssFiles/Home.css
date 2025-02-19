@@ -137,6 +137,22 @@ h2, h3{
   font-size: 27px;
 }
 
+.contact-me-block{
+  text-align: center;
+}
+
+.contact-row{
+  display: flex;
+  align-items: center;
+}
+
+.gmail-col, .linkedin-col, .github-col{
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: black;
+}
+
 .footer-container{
   display: flex;
   justify-content: center;
