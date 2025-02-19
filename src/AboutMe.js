@@ -22,7 +22,10 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
-		
+
+
+
+		{/* COMMENTING OUT 
 		<Container className="c1">
 			<Row className="AM-row1">
 				<Col className="miriamImage">
@@ -42,30 +45,32 @@ const AboutMe = () => {
 					</Card>
 				</Col>
 
-				<Col className="socialsCol">
+				</Row>
+		</Container>
+				*/}
+
+				<Col className="socials-col">
 					<Row>
-						<Card className="socialsCard">
+						<Card className="socials-card">
 							<Card.Body>
-								<Card.Title className="socialsTitle">Socials</Card.Title>
+								<Card.Title className="socials-title">Socials</Card.Title>
 							</Card.Body>
 						</Card>
 					</Row>
 
 					<Row>
 						<Container>
-							<Row className="iconsRow">
+							<Row className="icons-row">
 								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button></Col>
 								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button></Col>
 								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button></Col>
 								<Col><Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button></Col>
-
 							</Row>
 						</Container>
 					</Row>
 				</Col>
 
-			</Row>
-		</Container>
+			
 
 		{/*COMMENTING OUT FIRST 
 		<Container className="c2">
