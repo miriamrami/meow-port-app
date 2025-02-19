@@ -162,7 +162,7 @@ const Projects = () => {
       			</Accordion.Item>
     		</Accordion>
 		</Container>
-		<Container className="footerContainer"fluid>
+		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
 					Website by meowzilla =^-w-^=

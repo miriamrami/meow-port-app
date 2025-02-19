@@ -66,6 +66,8 @@ const AboutMe = () => {
 
 			</Row>
 		</Container>
+
+		{/*COMMENTING OUT FIRST 
 		<Container className="c2">
 			<Row className="AM-row2">
 				<Col>
@@ -96,9 +98,9 @@ const AboutMe = () => {
 				</Col>
 			</Row>
 		</Container>
-		
+		*/}
 
-		<Container className="footerContainer"fluid>
+		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
 					Website by meowzilla =^-w-^=
