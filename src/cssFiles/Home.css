@@ -13,8 +13,9 @@
 
 }
 
-.Home-link {
+.home-link {
   color: hsl(193, 95%, 68%);
+  text-decoration: none;
 }
 
 /*Figure out how to custmize the tabs -_-*/
@@ -22,6 +23,27 @@
   background-color: lightblue;
   height: 100%;
   margin: 0;
+}
+
+h1{
+  padding: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  color: navy;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  background-color: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1;
+  color: pink;
+  
 }
 
 /*The following will be the background display for the entire website.*/
@@ -35,41 +57,75 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+}
 
+.hero-container{
+  padding: 25px;
+}
+
+.first-container{
+  padding: 25px;
+}
+
+.welcome-message-row{
+  display: flex;
+  align-items: center;
+}
+
+.card-message{
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  
+  font-family: 'Courier New', Courier, monospace;
 
 }
 
-
-.img-col{
+.miriam-image{
   display: flex;
-  border-style: solid;
+  justify-content: center;
+  align-items: center;
 }
 
 .imageMiriam{
-  height:50%;
-
+  max-width: auto;
+  height: auto;
+  border-radius: 50%;
 }
 
-.footer-row{
-  margin: auto;
-  padding: 15px;
+.second-container{
+  padding: 25px;
+}
+
+.tech-resume-row{
+  display: flex;
+  align-items: center;
+}
+
+.tech-stack,
+.resume-document{
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 15px;
   text-align: center;
+
+  font-family: 'Courier New', Courier, monospace;
 }
 
+h2, h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
 
 .footer-container{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  text-align: left;
   margin-top: 20px;
   background-color: grey;
 
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
-
-
-
-

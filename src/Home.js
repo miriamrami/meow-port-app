@@ -21,13 +21,19 @@ const Home = () => {
 			</Container>
 		</Navbar>
 
+		<Container className="hero-container">
+			<h1>Howdy! I'm Miriam Ramirez... </h1>
+			<p>Software Engineer | Cross-Platform Developer | Problem Solver</p>
+		</Container>
+
 		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
 		<Container className="first-container">
 			<Row className="welcome-message-row">
 				<Col className="home-messsage">
-					<CardTitle className="card-title-message">
-						Howdy! I’m <mark>Miriam Ramirez, a Computer Science graduate</mark> with a passion for building innovative digital solutions. I’m particularly drawn to UI/UX design, where I get to blend creativity and functionality to create seamless user experiences. I’m also excited about <mark>mobile and web development</mark>, <mark>software engineering</mark>, and someday, <mark>game development</mark>.
-					</CardTitle>
+					<h2>A little about me...</h2>
+					<Card className="card-message">
+					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE. I aspire to create apps and websites that are both functional and beautiful.
+					</Card>
 				</Col>
 				<Col className="miriam-image">
 					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
@@ -41,12 +47,12 @@ const Home = () => {
 			<Row className="tech-resume-row">
 				<Col className="tech-stack">
 					<h2>Tech Stack</h2>
-					Write about tech stack here
+					<Card>Write about tech stack here</Card>
 				</Col>
 
 				<Col className="resume-document">
 					<h3>Resume</h3>
-					Include resume here
+					<Card>Insert resume here</Card>
 				</Col>
 
 			</Row>
