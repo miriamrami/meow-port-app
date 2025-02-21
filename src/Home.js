@@ -30,13 +30,13 @@ const Home = () => {
 		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
 		<Container className="first-container">
 			<Row className="welcome-message-row">
-				<Col className="home-messsage">
+				<Col md={6} sm={12} className="home-messsage">
 					<h1>A little about me...</h1>
 					<Card className="card-message">
 					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE, I aspire to create apps and websites that are both functional and beautiful.
 					</Card>
 				</Col>
-				<Col className="miriam-image">
+				<Col md={6} sm={12} className="miriam-image">
 					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
 				</Col>
 

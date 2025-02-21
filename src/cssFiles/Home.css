@@ -94,7 +94,7 @@ p{
 }
 
 .imageMiriam{
-  max-width: auto;
+  max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
@@ -126,11 +126,6 @@ p{
   font-weight: bold;
   align-items: left;
   padding: 15px;
-}
-
-button{
-  padding: 0%;
-  margin: 0%;
 }
 
 h2, h3{
