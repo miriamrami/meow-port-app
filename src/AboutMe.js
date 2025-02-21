@@ -22,7 +22,81 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
-		
+		<Container className="first-AM-container">
+			<Row className="top-row">
+				<Col className="col-one">
+					<Container>
+						<Card> Education</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							Background
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							Work Experience
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
+		<Container className="second-AM-container">
+			<Row>
+			<Col className="col-two">
+					<Container>
+						<Card>
+							Hobbies
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							Gallery
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							Socials
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
+		<Container className="third-AM-container">
+			<Row>
+			<Col className="col-three">
+					<Container>
+						<Card>
+							?
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							?
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card>
+							?
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
 
 
 
