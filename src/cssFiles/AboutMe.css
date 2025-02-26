@@ -103,28 +103,3 @@ body{
 
 }
 
-/*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
-
-
-/* CAROUSEL ON ABOUT ME - Might be deleting in the future */
-.c3 .AM-row3 .carousel {
-  max-width: 800px; /* Adjust */
-  margin: 0 auto; /* Center carousel */
-}
-
-.c3 .AM-row3 .carousel .carousel-item {
-  height: 800px; /* Set a fixed height for the carousel items? */
-}
-
-.c3 .AM-row3 .carousel .carousel-item img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover; /* Ensures the image covers the area without distortion */
-}
-
-/* To adjust carousel caption styling */
-.c3 .AM-row3 .carousel .carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
-  padding: 10px;
-  border-radius: 5px;
-}
