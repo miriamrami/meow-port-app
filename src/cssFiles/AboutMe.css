@@ -65,7 +65,9 @@ body{
   }
 
  .socials-col{
+  display: flex;
    position: relative;
+   align-items: center;
  }
 
 
@@ -96,29 +98,10 @@ body{
   height:auto;
  }
 
+ .bg-card{
+  background: rgba(0, 0, 0, 0);
 
- .bioTitleCard{
-  margin: 5px;
-  width: 95%;
-  bottom: 12px;
-  position: relative;
-  background: none;
-  border: none;
- }
-
- .bioTitle{
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  text-align: center;
-  font-size: medium;
-  font-size: 19px;
- }
-
- .bioParagraphCard{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-  bottom: 25px;
- }
+}
 
 /*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
 
