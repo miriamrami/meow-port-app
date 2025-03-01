@@ -45,21 +45,21 @@ const AboutMe = () => {
 			<Row className="top-row">
 				<Col className="col-one">
 					<Container className="education-card-container">
-						<Card onClick={() => handleShowModal("Education", "FILL IN DETAILS HERE")}>
+						<Card onClick={() => handleShowModal("Education", "Graduated from The University of Texas at El Paso with a Bachelor's of Science in Computer Science and a minor in Mathematics.")}>
 						<i className="bi-book"></i>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container className="background-card-container">
-						<Card onClick={() => handleShowModal("Background","FILL IN THE DETAILS")}>
+						<Card onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers and I remained there until graduating college.")}>
 							<i className="bi-globe"></i>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container className="work-card-container">
-						<Card onClick={() => handleShowModal("Work Experience","FILL IN DETAILS")}>
+						<Card onClick={() => handleShowModal("Work Experience","Neurodiagnostics Secretary, GU Retail Associate, PACSUN Retail Associate, Scribe America Remote Scribe, Code Ninjas Coding Instructor, Bed Bath and Beyond Retail Associate, UTEP Technology Support Student Assistant")}>
 						<i className="bi-pc-display-horizontal"></i>
 						</Card>
 					</Container>
