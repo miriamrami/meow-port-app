@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle, Modal } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
 import myImage from "./imgs/miriamimg.jpg";
 import castleImage from "./imgs/osakaCastle.jpg";
@@ -8,6 +8,21 @@ import towerImage from "./imgs/tokyoTower.jpg";
 import rockefellerImage from "./imgs/rockefellerTower.jpg";
 
 const AboutMe = () => {
+
+	const [showModal, setShowModal] = useState(false);
+	const [modalTitle, setModalTitle] = useState("");
+	const [modalContent, setModalContent] = useState("");
+
+	const handleShowModal = (title, content) => {
+		setModalTitle(title);
+		setModalContent(content);
+		setShowModal(true);
+	};
+
+	const handleCloseModal = () => {
+		setShowModal(false);
+	};
+
 	return (
 	<body>
 		<div className="home-background">
@@ -26,19 +41,19 @@ const AboutMe = () => {
 			<Row className="top-row">
 				<Col className="col-one">
 					<Container>
-						<Card> Education</Card>
+						<Card onClick={() => handleShowModal("Education", "FILL IN DETAILS HERE")}> Education</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card onClick={() => handleShowModal("Background","FILL IN THE DETAILS")}>
 							Background
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card onClick={() => handleShowModal("Work Experience","FILL IN DETAILS")}>
 							Work Experience
 						</Card>
 					</Container>
@@ -50,14 +65,14 @@ const AboutMe = () => {
 			<Row>
 			<Col className="col-two">
 					<Container>
-						<Card>
+						<Card onClick={() => handleShowModal("Hobbies","FILL IN DETAILS")}>
 							Hobbies
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card onClick={() => handleShowModal("Gallery","ADD IMAGES?")}>
 							Gallery
 						</Card>
 					</Container>
@@ -65,7 +80,7 @@ const AboutMe = () => {
 				<Col>
 					<Container>
 						<Card>
-							Socials
+						<Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button>
 						</Card>
 					</Container>
 				</Col>
@@ -77,27 +92,34 @@ const AboutMe = () => {
 			<Col className="col-three">
 					<Container>
 						<Card>
-							?
+						<Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
 						<Card>
-							?
+						<Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
 						<Card>
-							?
+						<Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button>
 						</Card>
 					</Container>
 				</Col>
 			</Row>
 		</Container>
 
+		<Modal show={showModal} onHide={handleCloseModal}>
+			<Modal.Header closeButton>
+          		<Modal.Title>{modalTitle}</Modal.Title>
+        	</Modal.Header>
+        	<Modal.Body>{modalContent}</Modal.Body>
+        <Modal.Footer></Modal.Footer>
+		</Modal>
 
 
 		{/* COMMENTING OUT 
@@ -123,28 +145,6 @@ const AboutMe = () => {
 				</Row>
 		</Container>
 				*/}
-
-				<Col className="socials-col">
-					<Row>
-						<Card className="socials-card">
-							<Card.Body>
-								<Card.Title className="socials-title">Socials</Card.Title>
-							</Card.Body>
-						</Card>
-					</Row>
-
-					<Row>
-						<Container>
-							<Row className="icons-row">
-								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button></Col>
-								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button></Col>
-								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button></Col>
-								<Col><Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button></Col>
-							</Row>
-						</Container>
-					</Row>
-				</Col>
-
 			
 
 		{/*COMMENTING OUT FIRST 
