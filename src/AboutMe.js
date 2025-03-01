@@ -37,24 +37,30 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
+		<Container className="about-me-title-container">
+					<h1>More About Me... </h1>
+		</Container>
+
 		<Container className="first-AM-container">
 			<Row className="top-row">
 				<Col className="col-one">
-					<Container>
-						<Card onClick={() => handleShowModal("Education", "FILL IN DETAILS HERE")}> Education</Card>
-					</Container>
-				</Col>
-				<Col>
-					<Container>
-						<Card onClick={() => handleShowModal("Background","FILL IN THE DETAILS")}>
-							Background
+					<Container className="education-card-container">
+						<Card onClick={() => handleShowModal("Education", "FILL IN DETAILS HERE")}>
+						<i className="bi-book"></i>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
-					<Container>
+					<Container className="background-card-container">
+						<Card onClick={() => handleShowModal("Background","FILL IN THE DETAILS")}>
+							<i className="bi-globe"></i>
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container className="work-card-container">
 						<Card onClick={() => handleShowModal("Work Experience","FILL IN DETAILS")}>
-							Work Experience
+						<i className="bi-pc-display-horizontal"></i>
 						</Card>
 					</Container>
 				</Col>
@@ -64,16 +70,16 @@ const AboutMe = () => {
 		<Container className="second-AM-container">
 			<Row>
 			<Col className="col-two">
-					<Container>
+					<Container className="hobbies-card-container">
 						<Card onClick={() => handleShowModal("Hobbies","FILL IN DETAILS")}>
-							Hobbies
+						<i className="bi-controller"></i>
 						</Card>
 					</Container>
 				</Col>
 				<Col>
-					<Container>
+					<Container className="gallery-card-container">
 						<Card onClick={() => handleShowModal("Gallery","ADD IMAGES?")}>
-							Gallery
+						<i className="bi-camera"></i>
 						</Card>
 					</Container>
 				</Col>

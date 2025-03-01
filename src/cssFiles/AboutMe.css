@@ -4,102 +4,29 @@
 }
 
 
-body{
-    background-color: aliceblue;
-}
-
-.AboutMe-container{
-    background-color: lightblue;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.AM-row1{
-    flex: 1;
-    padding: 20px;
-}
-  
-  .img1, .img2, .img3{
-    transform: scale(.5);
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-  .nameInfoCol{
-    place-content: center;
-    text-align: center;
-    position: relative;
-  }
-
-  .nameCard{
-    position: absolute;
-    background: none;
-    border: none;
-    top: 15px;
-    left: 15px;
-    
-  }
-
-  .nameCardText{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-weight: bolder;
-  }
-
-  .emailCard{
-    background: none;
-    position: absolute;
-    top: 65px;
-    left: 15px;
-    border: none;
-    
-  }
-
-  .emailText{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 14px;
-    
-  }
-
- .socials-col{
-  display: flex;
-   position: relative;
-   align-items: center;
- }
-
-
- .socials-card{
-    position: absolute;
-    background: none;
-    border: none;
-    top: 19px;
-    left: 15px;
- }
-
- .socials-title{
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 23px;
- }
-
- .icons-row{
-  display: flex;
-  position: absolute;
-  top: 75px;
-  left: 24px;
- }
-
- .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin{
+ .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin, .bi-book, .bi-camera, .bi-controller, .bi-globe, .bi-pc-display-horizontal{
   flex:auto;
-  font-size: 33px;
+  font-size: 35px;
   height:auto;
  }
 
  .bg-card{
   background: rgba(0, 0, 0, 0);
+
+}
+
+.first-AM-container, .second-AM-container, .third-AM-container{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.education-card-container, .work-card-container, .hobbies-card-container, .gallery-card-container, .background-card-container {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
