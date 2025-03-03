@@ -35,7 +35,7 @@ const AboutMe = () => {
 					<td>Aug 2024 - Current</td>
 				</tr>
 				<tr>
-					<td>Fast Retailing - GU SoHo</td>
+					<td>GU</td>
 					<td>Retail Associate</td>
 					<td>Nov 2024 - Current</td>
 				</tr>
