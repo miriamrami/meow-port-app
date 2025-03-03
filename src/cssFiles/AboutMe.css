@@ -70,39 +70,39 @@
 
 /* Unique background colors for each card */
 .eduCard:hover {
-  background-color: #ffebee; /* Light red/pink */
+  background-color: #ffcdd2
 }
 
 .bgCard:hover {
-  background-color: #e3f2fd; /* Light blue */
+  background-color: #bbdefb;
 }
 
 .workCard:hover {
-  background-color: #f3e5f5; /* Light purple */
+  background-color: #e1bee7; 
 }
 
 .hobbiesCard:hover {
-  background-color: #e8f5e9; /* Light green */
+  background-color: #c8e6c9;
 }
 
 .galleryCard:hover {
-  background-color: #fff3e0; /* Light orange */
+  background-color: #ffe0b2;
 }
 
 .igCard:hover {
-  background-color: #fce4ec; /* Light pink */
+  background-color: #f8bbd0;
 }
 
 .spotifyCard:hover {
-  background-color: #e8eaf6; /* Light indigo */
+  background-color: #c5cae9; 
 }
 
 .steamCard:hover {
-  background-color: #fbe9e7; /* Light deep orange */
+  background-color:  #ffccbc;
 }
 
 .liCard:hover {
-  background-color: #e0f7fa; /* Light cyan */
+  background-color: #b2ebf2;
 }
 
 .modal{
