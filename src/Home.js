@@ -93,7 +93,7 @@ const Home = () => {
 			<Row className="contact-row">
 				<h2>Lets Keep in Touch!</h2>
 				<Col className="gmail-col">
-					<p5>email: miriamteresaram@gmail.com</p5>
+					<a>email: miriamteresaram@gmail.com</a>
 				</Col>
 				<Col className="linkedin-col">
 					<a href="https://www.linkedin.com/in/miriamtramirez" target="_blank">www.linkedin.com/in/miriamtramirez </a>
