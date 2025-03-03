@@ -116,3 +116,21 @@
 .modal-body {
   font-size: 1.1rem;
 }
+
+/* Table Styling in Modal */
+.modal-body table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 5px; 
+}
+
+.modal-body th, .modal-body td {
+  padding: 8px; /* Add padding to table cells */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.modal-body th {
+  font-weight: bold; /* Make headers bold */
+  background-color: rgba(0, 0, 0, 0.05); 
+}

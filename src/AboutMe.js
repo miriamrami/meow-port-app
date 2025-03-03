@@ -19,6 +19,55 @@ const AboutMe = () => {
 		setShowModal(false);
 	};
 
+	const workExperienceTable = (
+		<table>
+			<thead>
+				<tr>
+					<th>Company</th>
+					<th>Job Title</th>
+					<th>Date in Position</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Neurodiagnostics</td>
+					<td>Front Desk Secretary</td>
+					<td>Aug 2024 - Current</td>
+				</tr>
+				<tr>
+					<td>Fast Retailing - GU SoHo</td>
+					<td>Retail Associate</td>
+					<td>Nov 2024 - Current</td>
+				</tr>
+				<tr>
+					<td>PACSUN</td>
+					<td>Retail Associate</td>
+					<td>Aug 2023 - Aug 2024</td>
+				</tr>
+				<tr>
+					<td>Scribe America</td>
+					<td>Remote Scribe</td>
+					<td>Aug 2023 - Aug 2024</td>
+				</tr>
+				<tr>
+					<td>Code Ninjas</td>
+					<td>Coding Instructor</td>
+					<td>Dec 2021 - April 2022</td>
+				</tr>
+				<tr>
+					<td>Bed Bath & Beyond</td>
+					<td>Retail Associate</td>
+					<td>Jan 2022 - May 2022</td>
+				</tr>
+				<tr>
+					<td>UTEP Technology Support</td>
+					<td>Undergraduate Student Assistant</td>
+					<td>Aug 2018 - Aug 2023</td>
+				</tr>
+			</tbody>
+		</table>
+	);
+
 	return (
 	<body>
 		<div className="AM-div">
@@ -57,7 +106,7 @@ const AboutMe = () => {
 				</Col>
 				<Col>
 					<Container className="work-card-container">
-						<Card className="workCard" onClick={() => handleShowModal("Work Experience","Neurodiagnostics Secretary, GU Retail Associate, PACSUN Retail Associate, Scribe America Remote Scribe, Code Ninjas Coding Instructor, Bed Bath and Beyond Retail Associate, UTEP Technology Support Student Assistant")}>
+						<Card className="workCard" onClick={() => handleShowModal("Work Experience", workExperienceTable)}>
 						<i className="bi-pc-display-horizontal"></i>
 						Work Experience
 						</Card>
