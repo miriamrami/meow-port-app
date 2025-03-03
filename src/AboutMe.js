@@ -30,7 +30,7 @@ const AboutMe = () => {
 			</thead>
 			<tbody>
 				<tr>
-					<td>Neurodiagnostics</td>
+					<td>Neurodiagnostics Medical P.C.</td>
 					<td>Front Desk Secretary</td>
 					<td>Aug 2024 - Current</td>
 				</tr>
