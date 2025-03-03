@@ -98,7 +98,7 @@ const AboutMe = () => {
 				</Col>
 				<Col>
 					<Container className="background-card-container">
-						<Card className="bgCard" onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers and I remained there until graduating college.")}>
+						<Card className="bgCard" onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers where I remained until graduating college.")}>
 							<i className="bi-globe"></i>
 							Background
 						</Card>
