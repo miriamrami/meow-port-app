@@ -25,7 +25,7 @@ const AboutMe = () => {
 				<tr>
 					<th>Company</th>
 					<th>Job Title</th>
-					<th>Date in Position</th>
+					<th>Duration</th>
 				</tr>
 			</thead>
 			<tbody>
