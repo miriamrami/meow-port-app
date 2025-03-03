@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle, Modal } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
-import myImage from "./imgs/miriamimg.jpg";
-import castleImage from "./imgs/osakaCastle.jpg";
-import towerImage from "./imgs/tokyoTower.jpg";
-import rockefellerImage from "./imgs/rockefellerTower.jpg";
 
 const AboutMe = () => {
 
@@ -25,7 +21,7 @@ const AboutMe = () => {
 
 	return (
 	<body>
-		<div className="home-background">
+		<div className="AM-div">
 		<Navbar sticky="top" className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
@@ -45,22 +41,25 @@ const AboutMe = () => {
 			<Row className="top-row">
 				<Col className="col-one">
 					<Container className="education-card-container">
-						<Card onClick={() => handleShowModal("Education", "Graduated from The University of Texas at El Paso with a Bachelor's of Science in Computer Science and a minor in Mathematics.")}>
-						<i className="bi-book"></i>
+						<Card className="eduCard" onClick={() => handleShowModal("Education", "Graduated from The University of Texas at El Paso with a Bachelor's of Science in Computer Science and a minor in Mathematics.")}>
+							<i className="bi-book"></i>
+							Education
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container className="background-card-container">
-						<Card onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers and I remained there until graduating college.")}>
+						<Card className="bgCard" onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers and I remained there until graduating college.")}>
 							<i className="bi-globe"></i>
+							Background
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container className="work-card-container">
-						<Card onClick={() => handleShowModal("Work Experience","Neurodiagnostics Secretary, GU Retail Associate, PACSUN Retail Associate, Scribe America Remote Scribe, Code Ninjas Coding Instructor, Bed Bath and Beyond Retail Associate, UTEP Technology Support Student Assistant")}>
+						<Card className="workCard" onClick={() => handleShowModal("Work Experience","Neurodiagnostics Secretary, GU Retail Associate, PACSUN Retail Associate, Scribe America Remote Scribe, Code Ninjas Coding Instructor, Bed Bath and Beyond Retail Associate, UTEP Technology Support Student Assistant")}>
 						<i className="bi-pc-display-horizontal"></i>
+						Work Experience
 						</Card>
 					</Container>
 				</Col>
@@ -71,22 +70,25 @@ const AboutMe = () => {
 			<Row>
 			<Col className="col-two">
 					<Container className="hobbies-card-container">
-						<Card onClick={() => handleShowModal("Hobbies","FILL IN DETAILS")}>
+						<Card className="hobbiesCard" onClick={() => handleShowModal("Hobbies","FILL IN DETAILS")}>
 						<i className="bi-controller"></i>
+						Hobbies
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container className="gallery-card-container">
-						<Card onClick={() => handleShowModal("Gallery","ADD IMAGES?")}>
+						<Card className="galleryCard" onClick={() => handleShowModal("Gallery","ADD IMAGES?")}>
 						<i className="bi-camera"></i>
+						Gallery
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card className="igCard">
 						<Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button>
+						Instagram
 						</Card>
 					</Container>
 				</Col>
@@ -97,22 +99,25 @@ const AboutMe = () => {
 			<Row>
 			<Col className="col-three">
 					<Container>
-						<Card>
+						<Card className="spotifyCard">
 						<Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button>
+						Spotify
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card className="steamCard">
 						<Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button>
+						Steam
 						</Card>
 					</Container>
 				</Col>
 				<Col>
 					<Container>
-						<Card>
+						<Card className="liCard">
 						<Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button>
+						LinkedIn
 						</Card>
 					</Container>
 				</Col>

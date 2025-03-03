@@ -3,21 +3,47 @@
 
 }
 
-
- .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin, .bi-book, .bi-camera, .bi-controller, .bi-globe, .bi-pc-display-horizontal{
-  flex:auto;
-  font-size: 35px;
-  height:auto;
- }
-
- .bg-card{
-  background: rgba(0, 0, 0, 0);
-
+.AM-div{
+    background-image: url("/src/imgs/kittybackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.modal{
+.AM-div .card {
   font-family: 'Courier New', Courier, monospace;
-  
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; /* Smooth hover effect */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Add a subtle border */
+  width: 200px; /* Fixed width */
+  height: 155px; /* Fixed height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  margin: 0 auto; /* Center cards horizontally in their container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: transparent;
+}
+
+.AM-div .card:hover{
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/*Icon Styling*/
+.bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin, .bi-book, .bi-camera, .bi-controller, .bi-globe, .bi-pc-display-horizontal{
+  font-size: 35px;
+  display: block;
+  color: #ffffff; /*Icon color*/
 }
 
 .first-AM-container, .second-AM-container, .third-AM-container{
@@ -27,21 +53,60 @@
   justify-content: center;
 }
 
-.education-card-container, .work-card-container, .hobbies-card-container, .gallery-card-container, .background-card-container {
-  padding: 15px;
+
+/* Specific Card Styling */
+.eduCard, .bgCard, .workCard, .hobbiesCard, .galleryCard, .igCard, .spotifyCard, .steamCard, .liCard {
+  width: 200px; /* Fixed width */
+  height: 155px; /* Fixed height */
   display: flex;
-  align-items: center;
-  justify-content: center;
-
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  margin: 0 auto; /* Center cards horizontally in their container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
 }
 
-.card {
-  cursor: pointer;
-  transition: transform 0.2s;
+/* Unique background colors for each card */
+.eduCard:hover {
+  background-color: #ffebee; /* Light red/pink */
 }
 
-.card:hover {
-  transform: scale(1.05);
+.bgCard:hover {
+  background-color: #e3f2fd; /* Light blue */
+}
+
+.workCard:hover {
+  background-color: #f3e5f5; /* Light purple */
+}
+
+.hobbiesCard:hover {
+  background-color: #e8f5e9; /* Light green */
+}
+
+.galleryCard:hover {
+  background-color: #fff3e0; /* Light orange */
+}
+
+.igCard:hover {
+  background-color: #fce4ec; /* Light pink */
+}
+
+.spotifyCard:hover {
+  background-color: #e8eaf6; /* Light indigo */
+}
+
+.steamCard:hover {
+  background-color: #fbe9e7; /* Light deep orange */
+}
+
+.liCard:hover {
+  background-color: #e0f7fa; /* Light cyan */
+}
+
+.modal{
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .modal-title {
