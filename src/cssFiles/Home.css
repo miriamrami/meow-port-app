@@ -26,6 +26,8 @@
 }
 
 h1{
+  display: flex;
+  flex-direction: column;
   padding: 25px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -76,7 +78,9 @@ p{
 }
 
 .card-message{
-  padding: 65px;
+  display: flex;
+  align-items: center;
+  padding: 45px;
   background-color: rgb(4, 193, 245);
   border-radius: 60px;
   
@@ -88,7 +92,9 @@ p{
 }
 
 .miriam-image{
+  padding: 25px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -106,6 +112,7 @@ p{
 .tech-resume-row{
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .PL-stack,

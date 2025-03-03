@@ -31,9 +31,9 @@ const Home = () => {
 		<Container className="first-container">
 			<Row className="welcome-message-row">
 				<Col md={6} sm={12} className="home-messsage">
-					<h1>A little about me...</h1>
+					<h1>Welcome to my Portfolio!</h1>
 					<Card className="card-message">
-					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE, I aspire to create apps and websites that are both functional and beautiful.
+					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE, I aspire to create apps and websites that are both functional and cool.
 					</Card>
 				</Col>
 				<Col md={6} sm={12} className="miriam-image">
