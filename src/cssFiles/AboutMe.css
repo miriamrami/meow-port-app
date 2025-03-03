@@ -15,6 +15,11 @@
 
 }
 
+.modal{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
 .first-AM-container, .second-AM-container, .third-AM-container{
   padding: 25px;
   display: flex;
