@@ -119,7 +119,7 @@ const AboutMe = () => {
 			<Row>
 			<Col className="col-two">
 					<Container className="hobbies-card-container">
-						<Card className="hobbiesCard" onClick={() => handleShowModal("Hobbies","FILL IN DETAILS")}>
+						<Card className="hobbiesCard" onClick={() => handleShowModal("Hobbies","I like to read or play video games! My favorite video game franchise is The Legend of Zelda!")}>
 						<i className="bi-controller"></i>
 						Hobbies
 						</Card>
@@ -127,7 +127,7 @@ const AboutMe = () => {
 				</Col>
 				<Col>
 					<Container className="gallery-card-container">
-						<Card className="galleryCard" onClick={() => handleShowModal("Gallery","ADD IMAGES?")}>
+						<Card className="galleryCard" onClick={() => handleShowModal("Gallery","*Work in Progress*")}>
 						<i className="bi-camera"></i>
 						Gallery
 						</Card>

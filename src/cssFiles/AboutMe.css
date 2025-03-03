@@ -115,6 +115,7 @@
 
 .modal-body {
   font-size: 1.1rem;
+  background-color: pink;
 }
 
 /* Table Styling in Modal */
