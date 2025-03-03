@@ -83,7 +83,10 @@ const AboutMe = () => {
 		</Navbar>
 
 		<Container className="about-me-title-container">
+				<Row className="AM-title-row">
 					<h1>More About Me... </h1>
+				</Row>	
+					
 		</Container>
 
 		<Container className="first-AM-container">

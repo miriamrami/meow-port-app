@@ -24,7 +24,7 @@ const Home = () => {
 
 		<Container className="hero-container">
 			<h1>Howdy! I'm Miriam Ramirez... </h1>
-			<p>Software Engineer | Cross-Platform Developer | Problem Solver</p>
+			<p>Software Engineer | Front End Developer | Web Developer | Problem Solver</p>
 		</Container>
 
 		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
