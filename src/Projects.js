@@ -25,7 +25,7 @@ const Projects = () => {
 
 	return (
 	<body>
-		<div className="home-background">
+		<div className="projects-div">
 		
 			<Navbar sticky="top" className="home-nav">
 				<Container>
@@ -37,7 +37,8 @@ const Projects = () => {
 						</Nav>
 				</Container>
 			</Navbar>
-		<Container>
+
+		<Container className="accordion-container">
 			<Accordion className="accordionComponent">
       			<Accordion.Item eventKey="0">
         			<Accordion.Header>Cross Platform Mobile App Development</Accordion.Header>
@@ -145,7 +146,7 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
 				  <Accordion.Item eventKey="2">
-        			<Accordion.Header>Project #3</Accordion.Header>
+        			<Accordion.Header>Portfolio Website</Accordion.Header>
         				<Accordion.Body>
 							<Spinner animation="grow" variant="info" size="sm"/>
 							Work in progress  
@@ -162,6 +163,7 @@ const Projects = () => {
       			</Accordion.Item>
     		</Accordion>
 		</Container>
+
 		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
