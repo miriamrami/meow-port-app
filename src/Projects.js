@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, {useState} from 'react';
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner, Modal, Button, CardBody} from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Accordion, Image, Card, CardBody, Spinner, Modal, Button} from "react-bootstrap";
 import WA1 from "./DemoImages/wApp1.png";
 import WA2 from "./DemoImages/wApp2.png";
 import WA3 from "./DemoImages/wApp3.png";
