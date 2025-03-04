@@ -3,145 +3,138 @@
 
 }
 
-
-body{
-    background-color: aliceblue;
-}
-
-.AboutMe-container{
-    background-color: lightblue;
+.AM-div{
+    background-image: url("/src/imgs/kittybackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.AM-row1{
-    flex: 1;
-    padding: 20px;
-}
-  
-  .img1, .img2, .img3{
-    transform: scale(.5);
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-  .nameInfoCol{
-    place-content: center;
-    text-align: center;
-    position: relative;
-  }
-
-  .nameCard{
-    position: absolute;
-    background: none;
-    border: none;
-    top: 15px;
-    left: 15px;
-    
-  }
-
-  .nameCardText{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-weight: bolder;
-  }
-
-  .emailCard{
-    background: none;
-    position: absolute;
-    top: 65px;
-    left: 15px;
-    border: none;
-    
-  }
-
-  .emailText{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 14px;
-    
-  }
-
- .socialsCol{
-   position: relative;
- }
-
-
- .socialsCard{
-    position: absolute;
-    background: none;
-    border: none;
-    top: 19px;
-    left: 15px;
- }
-
- .socialsTitle{
+.AM-div .card {
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  font-size: 23px;
- }
-
- .iconsRow{
-  display: flex;
-  position: absolute;
-  top: 75px;
-  left: 24px;
- }
-
- .bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin{
-  flex:auto;
-  font-size: 33px;
-  height:auto;
- }
-
-
- .bioTitleCard{
-  margin: 5px;
-  width: 95%;
-  bottom: 12px;
-  position: relative;
-  background: none;
-  border: none;
- }
-
- .bioTitle{
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
   text-align: center;
-  font-size: medium;
-  font-size: 19px;
- }
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; /* Smooth hover effect */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Add a subtle border */
+  width: 200px; /* Fixed width */
+  height: 155px; /* Fixed height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  margin: 0 auto; /* Center cards horizontally in their container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: transparent;
+}
 
- .bioParagraphCard{
+.AM-div .card:hover{
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+
+/*Icon Styling*/
+.bi-instagram, .bi-spotify, .bi-steam, .bi-linkedin, .bi-book, .bi-camera, .bi-controller, .bi-globe, .bi-pc-display-horizontal{
+  font-size: 35px;
+  display: block;
+  color: #ffffff; /*Icon color*/
+}
+
+.first-AM-container, .second-AM-container, .third-AM-container{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Specific Card Styling */
+.eduCard, .bgCard, .workCard, .hobbiesCard, .galleryCard, .igCard, .spotifyCard, .steamCard, .liCard {
+  width: 200px; /* Fixed width */
+  height: 155px; /* Fixed height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+  margin: 0 auto; /* Center cards horizontally in their container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+}
+
+/* Unique background colors for each card */
+.eduCard:hover {
+  background-color: #ffcdd2
+}
+
+.bgCard:hover {
+  background-color: #bbdefb;
+}
+
+.workCard:hover {
+  background-color: #e1bee7; 
+}
+
+.hobbiesCard:hover {
+  background-color: #c8e6c9;
+}
+
+.galleryCard:hover {
+  background-color: #ffe0b2;
+}
+
+.igCard:hover {
+  background-color: #f8bbd0;
+}
+
+.spotifyCard:hover {
+  background-color: #c5cae9; 
+}
+
+.steamCard:hover {
+  background-color:  #ffccbc;
+}
+
+.liCard:hover {
+  background-color: #b2ebf2;
+}
+
+.modal{
   font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-  bottom: 25px;
- }
-
-/*EDIT AS PROJECT ADVANCES - USING FOR VISUAL REFERENCE*/
-
-
-/* CAROUSEL ON ABOUT ME - Might be deleting in the future */
-.c3 .AM-row3 .carousel {
-  max-width: 800px; /* Adjust */
-  margin: 0 auto; /* Center carousel */
 }
 
-.c3 .AM-row3 .carousel .carousel-item {
-  height: 800px; /* Set a fixed height for the carousel items? */
+.modal-title {
+  font-weight: bold;
 }
 
-.c3 .AM-row3 .carousel .carousel-item img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover; /* Ensures the image covers the area without distortion */
+.modal-body {
+  font-size: 1.1rem;
+  background-color: pink;
 }
 
-/* To adjust carousel caption styling */
-.c3 .AM-row3 .carousel .carousel-caption {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
-  padding: 10px;
-  border-radius: 5px;
+/* Table Styling in Modal */
+.modal-body table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 5px; 
+}
+
+.modal-body th, .modal-body td {
+  padding: 8px; /* Add padding to table cells */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  background-color: pink;
+  color: white;
+}
+
+.modal-body th {
+  font-weight: bold; /* Make headers bold */
+  background-color: rgba(227, 95, 183, 0.709); 
 }

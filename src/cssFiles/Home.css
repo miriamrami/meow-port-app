@@ -1,100 +1,171 @@
-.home-nav {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-
-}
-
-.nameHeader{
-  text-align: center;
-}
-
 .home-nav{
+  position: sticky;
+  top:0;
   font-weight: bold;
   background-color: lightskyblue;
   margin-bottom: 5px;
   padding-bottom: 2px;
+  display: flex;
+  width: 100%;
+
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace; 
+
 }
 
-.Home-link {
+.home-link {
   color: hsl(193, 95%, 68%);
+  text-decoration: none;
 }
 
 /*Figure out how to custmize the tabs -_-*/
 .body{
   background-color: lightblue;
+  height: 100%;
+  margin: 0;
 }
 
-/*The following will be the color for the entire website.*/
-.home-background{
-  background-image: url("/src/imgs/kittybackground.jpg");
-  background-size: cover;
-
-
+h1{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  color: navy;
 }
 
-.myNameContainer{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.nameHeader{
-  color:navy;
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  background-color: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1;
+  color: pink;
   
 }
 
-.cardWelcome{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
-  text-align: center;
-  height: auto;
-  width: auto;
-}
-
-.techStackCard{
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.tsTitle{
-  font-weight: bold;
-}
-
-li{
-  list-style-type: none;
-}
-
-.row1{
-  margin: auto;
-  width: 49%;
-  border: 3px ;
-  padding: 15px;
-
-}
-
-.row2{
-  margin: auto;
-  width: 99%;
-  padding: 15px;
-
-}
-
-.row3{
-  margin: auto;
-  padding: 15px;
-  text-align: center;
-}
-
-.connectContainer{
-  text-align: center;
-}
-
-.footerContainer{
+/*The following will be the background display for the entire website.*/
+.home-background{
+  background-image: url("/src/imgs/kittybackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-container{
+  padding: 25px;
+}
+
+.first-container{
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-message-row{
+  display: flex;
+  align-items: center;
+}
+
+.card-message{
+  display: flex;
+  align-items: center;
+  padding: 45px;
+  background-color: rgb(4, 193, 245);
+  border-radius: 60px;
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+
+}
+
+.miriam-image{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageMiriam{
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.second-container{
+  padding: 25px;
+}
+
+.tech-resume-row{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.PL-stack,
+.FT-stack,
+.strengths-stack{
+  padding: 25px;
+  background-color: palevioletred;
+  border-radius: 10px;
+  margin: 15px;
+  text-align: left;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tech-card, .resume-card, .strengths-card{
+  background-color: pink;
+  color: white;
+  font-weight: bold;
+  align-items: left;
+  padding: 15px;
+}
+
+h2, h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: pink;
+  font-size: 27px;
+}
+
+.contact-me-block{
+  text-align: center;
+}
+
+.contact-row{
+  display: flex;
+  align-items: center;
+}
+
+.gmail-col, .linkedin-col, .github-col{
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: black;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
   background-color: grey;
+
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
-
-
-
-

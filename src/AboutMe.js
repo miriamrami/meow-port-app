@@ -1,16 +1,76 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col, Carousel, Image, Card, CardBody, CardText, Button, CardTitle, Modal } from "react-bootstrap";
 import "./cssFiles//AboutMe.css";
-import myImage from "./imgs/miriamimg.jpg";
-import castleImage from "./imgs/osakaCastle.jpg";
-import towerImage from "./imgs/tokyoTower.jpg";
-import rockefellerImage from "./imgs/rockefellerTower.jpg";
 
 const AboutMe = () => {
+
+	const [showModal, setShowModal] = useState(false);
+	const [modalTitle, setModalTitle] = useState("");
+	const [modalContent, setModalContent] = useState("");
+
+	const handleShowModal = (title, content) => {
+		setModalTitle(title);
+		setModalContent(content);
+		setShowModal(true);
+	};
+
+	const handleCloseModal = () => {
+		setShowModal(false);
+	};
+
+	const workExperienceTable = (
+		<table>
+			<thead>
+				<tr>
+					<th>Company</th>
+					<th>Job Title</th>
+					<th>Duration</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Neurodiagnostics Medical P.C.</td>
+					<td>Front Desk Secretary</td>
+					<td>Aug 2024 - Current</td>
+				</tr>
+				<tr>
+					<td>GU</td>
+					<td>Retail Associate</td>
+					<td>Nov 2024 - Current</td>
+				</tr>
+				<tr>
+					<td>PACSUN</td>
+					<td>Retail Associate</td>
+					<td>Aug 2023 - Aug 2024</td>
+				</tr>
+				<tr>
+					<td>Scribe America</td>
+					<td>Remote Scribe</td>
+					<td>Aug 2023 - Aug 2024</td>
+				</tr>
+				<tr>
+					<td>Code Ninjas</td>
+					<td>Coding Instructor</td>
+					<td>Dec 2021 - April 2022</td>
+				</tr>
+				<tr>
+					<td>Bed Bath & Beyond</td>
+					<td>Retail Associate</td>
+					<td>Jan 2022 - May 2022</td>
+				</tr>
+				<tr>
+					<td>UTEP Technology Support</td>
+					<td>Undergraduate Student Assistant</td>
+					<td>Aug 2018 - Aug 2023</td>
+				</tr>
+			</tbody>
+		</table>
+	);
+
 	return (
 	<body>
-		<div className="home-background">
+		<div className="AM-div">
 		<Navbar sticky="top" className="home-nav">
 			<Container>
 				<Navbar.Brand href="/">=^-w-^=</Navbar.Brand>
@@ -22,7 +82,110 @@ const AboutMe = () => {
 			</Container>
 		</Navbar>
 
-		
+		<Container className="about-me-title-container">
+				<Row className="AM-title-row">
+					<h1>More About Me... </h1>
+				</Row>	
+					
+		</Container>
+
+		<Container className="first-AM-container">
+			<Row className="top-row">
+				<Col className="col-one">
+					<Container className="education-card-container">
+						<Card className="eduCard" onClick={() => handleShowModal("Education", "Graduated from The University of Texas at El Paso with a Bachelor's of Science in Computer Science and a minor in Mathematics.")}>
+							<i className="bi-book"></i>
+							Education
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container className="background-card-container">
+						<Card className="bgCard" onClick={() => handleShowModal("Background","I was born in Ciudad Juarez, Chihuahua, Mexico. Later, at four years old, I moved to El Paso, Texas with my parents and my older brothers where I remained until graduating college.")}>
+							<i className="bi-globe"></i>
+							Background
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container className="work-card-container">
+						<Card className="workCard" onClick={() => handleShowModal("Work Experience", workExperienceTable)}>
+						<i className="bi-pc-display-horizontal"></i>
+						Work Experience
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
+		<Container className="second-AM-container">
+			<Row>
+			<Col className="col-two">
+					<Container className="hobbies-card-container">
+						<Card className="hobbiesCard" onClick={() => handleShowModal("Hobbies","I like to read or play video games! My favorite video game franchise is The Legend of Zelda!")}>
+						<i className="bi-controller"></i>
+						Hobbies
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container className="gallery-card-container">
+						<Card className="galleryCard" onClick={() => handleShowModal("Gallery","*Work in Progress*")}>
+						<i className="bi-camera"></i>
+						Gallery
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card className="igCard">
+						<Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button>
+						Instagram
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
+		<Container className="third-AM-container">
+			<Row>
+			<Col className="col-three">
+					<Container>
+						<Card className="spotifyCard">
+						<Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button>
+						Spotify
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card className="steamCard">
+						<Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button>
+						Steam
+						</Card>
+					</Container>
+				</Col>
+				<Col>
+					<Container>
+						<Card className="liCard">
+						<Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button>
+						LinkedIn
+						</Card>
+					</Container>
+				</Col>
+			</Row>
+		</Container>
+
+		<Modal show={showModal} onHide={handleCloseModal}>
+			<Modal.Header closeButton>
+          		<Modal.Title>{modalTitle}</Modal.Title>
+        	</Modal.Header>
+        	<Modal.Body>{modalContent}</Modal.Body>
+        <Modal.Footer></Modal.Footer>
+		</Modal>
+
+
+		{/* COMMENTING OUT 
 		<Container className="c1">
 			<Row className="AM-row1">
 				<Col className="miriamImage">
@@ -42,30 +205,12 @@ const AboutMe = () => {
 					</Card>
 				</Col>
 
-				<Col className="socialsCol">
-					<Row>
-						<Card className="socialsCard">
-							<Card.Body>
-								<Card.Title className="socialsTitle">Socials</Card.Title>
-							</Card.Body>
-						</Card>
-					</Row>
-
-					<Row>
-						<Container>
-							<Row className="iconsRow">
-								<Col><Button variant="danger" href="https://www.instagram.com/_meowriam_/" target="_blank"><i className="bi-instagram"></i></Button></Col>
-								<Col><Button variant="success" href="https://open.spotify.com/user/mairix3?si=a4411d782b4144c4" target="_blank"><i className="bi-spotify"></i></Button></Col>
-								<Col><Button variant="dark" href="https://steamcommunity.com/id/11151999/" target="_blank"><i className="bi-steam"></i></Button></Col>
-								<Col><Button variant="info" href="https://www.linkedin.com/in/miriamtramirez/" target="_blank"><i className="bi-linkedin"></i></Button></Col>
-
-							</Row>
-						</Container>
-					</Row>
-				</Col>
-
-			</Row>
+				</Row>
 		</Container>
+				*/}
+			
+
+		{/*COMMENTING OUT FIRST 
 		<Container className="c2">
 			<Row className="AM-row2">
 				<Col>
@@ -96,41 +241,9 @@ const AboutMe = () => {
 				</Col>
 			</Row>
 		</Container>
-		<Container className="c3">
-			<Row className="AM-row3">
-				<Col>
-					<Carousel>
-						<Carousel.Item>
-							<Container className="c4">
-							<img className="d-block w-100" src={castleImage} alt="First Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-							</Container>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Container>
-							<img className="d-block w-100" src={towerImage} alt="Second Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-							</Container>
-						</Carousel.Item>
-						<Carousel.Item>
-							<img className="d-block w-100" src={rockefellerImage} alt="Third Slide"/>
-							<Carousel.Caption>
-								<h3>Title</h3>
-								<p>insert description here?</p>
-							</Carousel.Caption>
-						</Carousel.Item>
-					</Carousel>
-				</Col>
-			</Row>
-		</Container>
+		*/}
 
-		<Container className="footerContainer"fluid>
+		<Container className="footer-container"fluid>
 			<Row className="row3">
 				<Col>
 					Website by meowzilla =^-w-^=

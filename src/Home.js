@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./cssFiles//Home.css";
-import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem} from "react-bootstrap";
-import ghcImg from "./imgs/miriamAtGHC.jpg";
+import { Container, Row, Col, Card, Nav, Navbar, Button, ListGroup, Accordion, ListGroupItem, Image, CardTitle} from "react-bootstrap";
+import myImage from "./imgs/miriamimg.jpg";
+import myResume from "./Docs/Miriam_Resume_.pdf";
 
 const Home = () => {
 	return (
 	<body>
 		<div className="home-background">
 
+		{/*THIS IS THE NAVBAR CONTAINER */}
 		<Navbar sticky="top" className="home-nav">
 			<Container>
 				<Navbar.Brand href="/Home.js">=^-w-^=</Navbar.Brand>
@@ -20,162 +22,91 @@ const Home = () => {
 			</Container>
 		</Navbar>
 
-		<Container className="myNameContainer">
-			<Row>
-				<Col>
-					<h1 className="nameHeader">Miriam Ramirez</h1>
-				</Col>
-			</Row>
+		<Container className="hero-container">
+			<h1>Howdy! I'm Miriam Ramirez... </h1>
+			<p>Software Engineer | Front End Developer | Web Developer | Problem Solver</p>
 		</Container>
 
-		<Container fluid>
-			<Row className="row1">
-				<Col>
-					<Container>
-					<Card className="cardWelcome">
-						<Card.Img variant="top" src={ghcImg} rounded fluid />
-						<Card.Body>
-							<Card.Text>Me at the 2019 Grace Hopper Conference held in Orlando, Florida.</Card.Text>
-						</Card.Body>
+		{/*THIS IS THE HEADER CONTAINER - Will have a welcome msg and an img of me*/}
+		<Container className="first-container">
+			<Row className="welcome-message-row">
+				<Col md={6} sm={12} className="home-messsage">
+					<h1>Welcome to my Portfolio!</h1>
+					<Card className="card-message">
+					I'm passionate about building seamless user experiences and solving complex technical challenges. With some expertise in FLUTTER, REACT JS, and FIREBASE, I aspire to create apps and websites that are both functional and cool.
 					</Card>
-					</Container>
+				</Col>
+				<Col md={6} sm={12} className="miriam-image">
+					<Image className="imageMiriam" src={myImage} roundedCircle fluid/>
+				</Col>
+
+			</Row>
+		</Container>
+
+		{/*THIS WILL BE THE CONTAINER THAT TALKS ABOUT MY SKILLS - TECH STACK + RESUME*/}
+		<Container className="second-container">
+			<Row className="tech-resume-row">
+				<Col className="PL-stack">
+					<h2>Programming Languages</h2>
+					<Card className="tech-card">
+						<ul>
+							<li>Javascript</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Java</li>
+							<li>Python</li>
+							<li>Dart</li>
+						</ul>
+					</Card>
+				</Col>
+
+				<Col className="FT-stack">
+					<h3>Frameworks & Tools</h3>
+					<Card className="resume-card">
+						<ul>
+							<li>Bootstrap</li>
+							<li>React JS</li>
+							<li>Flutter</li>
+							<li>Firebase</li>
+							<li>Android Studio</li>
+						</ul>
+					</Card>
+				</Col>
+
+				<Col className="strengths-stack">
+					<h3>Strengths</h3>
+					<Card className="strengths-card">
+						<ul>
+							<li>Cross-platform development</li>
+							<li>API integration</li>
+							<li>Technical communication</li>
+							<li>Adaptability</li>
+							<li>Quick Learning</li>
+						</ul>
+					</Card>
+				</Col>
+
+			</Row>
+		</Container>
+
+		<Container className="contact-me-block">
+			<Row className="contact-row">
+				<h2>Lets Keep in Touch!</h2>
+				<Col className="gmail-col">
+					<a>email: miriamteresaram@gmail.com</a>
+				</Col>
+				<Col className="linkedin-col">
+					<a href="https://www.linkedin.com/in/miriamtramirez" target="_blank">www.linkedin.com/in/miriamtramirez </a>
+				</Col>
+				<Col className="github-col">
+					<a href="https://github.com/miriamrami" target="_blank">github.com/miriamrami </a>
 				</Col>
 			</Row>
 		</Container>
 
-		<Container>
-			<Row className="row2">
-				<Col>
-					<Container>
-							<Card className="techStackCard">
-								<Card.Body>
-									<Card.Title className="tsTitle">Tech Stack</Card.Title>
-									<Card.Text>
-									<ListGroup as="ol">
-      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
-        									<div className="ms-2 me-auto">
-											<Accordion>
-    											<Accordion.Item eventKey="0">
-        											<Accordion.Header>Programming Languages</Accordion.Header>
-        												<Accordion.Body>
-														<ul>
-              												<li>Python
-																<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>Java
-															 	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>Dart
-															  	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>HTML
-															  	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>JavaScript
-															  	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>TypeScript
-															  	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>CSS
-															  	<i className="bi-star-fill"></i>
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>PHP
-															  <i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-              												<li>SQL
-																<i className="bi-star-fill"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-																<i className="bi-star"></i>
-															</li>
-            											</ul>
-        												</Accordion.Body>
-												</Accordion.Item>
-											</Accordion>
-											</div>
-      									</ListGroup.Item>
-      									<ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
-        									<div className="ms-2 me-auto">
-											<Accordion >
-    											<Accordion.Item eventKey="1">
-        											<Accordion.Header>Frameworks</Accordion.Header>
-        												<Accordion.Body>
-														<ul>
-              												<li>React Native</li>
-              												<li>Bootstrap</li>
-              												<li>Flutter</li>
-            											</ul>
-        												</Accordion.Body>
-												</Accordion.Item>
-											</Accordion>
-        									</div>
-      									</ListGroup.Item>
-										  <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
-        									<div className="ms-2 me-auto">
-											<Accordion >
-    											<Accordion.Item eventKey="2">
-        											<Accordion.Header>Methodologies and Practices</Accordion.Header>
-        												<Accordion.Body>
-														<ul>
-              												<li>Agile</li>
-              												<li>Aprint Planning</li>
-              												<li>Personal Software Process</li>
-            											</ul>
-        												</Accordion.Body>
-												</Accordion.Item>
-											</Accordion>
-        									</div>
-      									</ListGroup.Item>
-    								</ListGroup>
-									</Card.Text>
-								</Card.Body>
-							</Card>
-					</Container>
-				</Col>
-				<Col>
-					[Work in Progress]
-				</Col>
-			</Row>
-		</Container>
-
-
-		
-		<Container className="footerContainer"fluid>
-			<Row className="row3">
+		{/*CONTAINER WITH THE SITE FOOTER*/}
+		<Container className="footer-container"fluid>
+			<Row className="footer-row">
 				<Col>
 					Website by meowzilla =^-w-^=
 				</Col>

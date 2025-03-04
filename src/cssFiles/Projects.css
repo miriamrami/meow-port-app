@@ -3,6 +3,23 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.projects-div{
+    background-image: url("/src/imgs/kittybackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .btn-primary{
     flex-direction: row;
     margin-top: 30px;
