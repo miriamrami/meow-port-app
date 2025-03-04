@@ -74,32 +74,88 @@ const Projects = () => {
 										</Container>
 									</Col>
 								</Row>
+
 								<Row>
-									<Col>
-											<h2>Sketches</h2>
+									<Container>
+										<h2>Sketches</h2>
 										<Row>
-											<Col><Image src={sImg1} rounded fluid onClick={() => handleImageClick(sImg1)} style={{cursor: 'pointer'}}/> </Col>
-										</Row>
-										<Row>
-											<Col><Image src={sImg2} rounded fluid onClick={() => handleImageClick(sImg2)} style={{cursor: 'pointer'}}/></Col>
-										</Row>
-										<Row>
-											<Col><Image src={sImg3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-										</Row>
-									</Col>
-									<Col>
-													<h2>App Demo Screenshots</h2>
-										<Row>
-											<Col><Image src={WA8} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA9} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>											
-										</Row>
-										<Row>
-											<Col><Image src={WA6} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA7} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Card>
+												<Image src={sImg1} rounded fluid/>
+												<CardBody>
+												In these first four steps, the user is to create an account if they dont already have one in order to use the application.
+												</CardBody>
+											</Card>
 											
 										</Row>
-									</Col>
-									<Row>
+										<Row>
+											<Card>
+												<Image src={sImg2} rounded fluid/>
+												<CardBody>
+													Once the user has signed up, they are met with the main menu which at first has zero boards. From the menu, the user can add friends, access settings, create a new board, or access their profile in case they want to edit something.
+												</CardBody>
+											</Card>
+										</Row>
+										<Row>
+											<Col>
+												<Card>
+													<Image src={sImg3} rounded fluid/>
+													<CardBody>
+														Once the user has created their board and has added an item, they should be able to see the board with the items listed!
+													</CardBody>
+												</Card>
+											</Col>
+											<Col>
+												
+											</Col>
+										</Row>
+									</Container>
+								</Row>
+								<Row>
+									
+									<Container>
+													<h2>App Demo Screenshots</h2>
+										<Row>
+											<Col>
+												<Card>
+													<Image src={WA8} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/>
+												<CardBody>
+													The sign in page will only request for the email that the user input to sign up and the password they chose.
+												</CardBody>
+												</Card>	
+											</Col>
+											
+											<Col>
+											<Card>
+												<Image src={WA9} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/>
+												<CardBody>
+													When a user is creating an account they are asked to provide their name, an email address, their age, and a password. 
+												</CardBody>
+											</Card>
+												
+											</Col>											
+										</Row>
+										<Row>
+											<Col>
+												<Card>
+													<Image src={WA6} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/>
+													<CardBody>
+														Once the user has created an account, their profile page will display an image, their name, their email and a bio for them to edit to their liking.
+													</CardBody>
+												</Card>
+											</Col>
+											<Col>
+											<Card>
+												<Image src={WA7} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/>
+												<CardBody>
+													From the profile page, the user can tap on the hamburger menu to see that they have options available to them such as editing their profile, app settings, and logging off.
+												</CardBody>
+											</Card>
+											</Col>
+											
+										</Row>
+									</Container>
+
+									<Row className="demos-row-1">
 											<Row>
 												<Container>
 													<h2>App Demos</h2>
@@ -148,10 +204,52 @@ const Projects = () => {
 												
 											</Container>
 										</Col>
-										
 									</Row>
-									<Row>
 										
+									<Row className="demos-row-2">
+									<Col>
+											<Container>
+												<video
+                  									src={d4}
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														Displaying the many different boards that can be created and showcasing how to create a board.
+													</CardBody>
+												</Card>
+											</Container>
+										</Col>
+										<Col>
+											<Container>
+												<video
+                  									src={d5} 
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														User resetting password; obtaining confirmation window.
+													</CardBody>
+												</Card>
+											</Container>
+										</Col>
+										<Col>
+											<Container>
+													<video
+                  									src={d6}
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														Showcasing the items listed in users' "Birthday" board.
+													</CardBody>
+												</Card>
+												
+											</Container>
+										</Col>
 									</Row>
 								</Row>
 							</Container>
@@ -185,10 +283,10 @@ const Projects = () => {
 										<Card.Text >Screencaptures of the WIX Website </Card.Text>
 									</Card.Body>
 								</Card>
-								<Col><Image src={wp1} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-								<Col><Image src={wp2} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-								<Col><Image src={wp3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-								<Col><Image src={wp4} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp1} rounded fluid onClick={() => handleImageClick(wp1)} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp2} rounded fluid onClick={() => handleImageClick(wp2)} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp3} rounded fluid onClick={() => handleImageClick(wp3)} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp4} rounded fluid onClick={() => handleImageClick(wp4)} style={{cursor: 'pointer'}}/></Col>
 							</Row>
         				</Accordion.Body>
       			</Accordion.Item>
