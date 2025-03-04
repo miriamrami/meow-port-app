@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React, {useState} from 'react';
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner, Modal, Button} from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner, Modal, Button, CardBody} from "react-bootstrap";
 import WA1 from "./DemoImages/wApp1.png";
 import WA2 from "./DemoImages/wApp2.png";
 import WA3 from "./DemoImages/wApp3.png";
@@ -20,6 +20,12 @@ import wp1 from "./DemoImages/web1.jpg";
 import wp2 from "./DemoImages/web2.jpg";
 import wp3 from "./DemoImages/web3.jpg";
 import wp4 from "./DemoImages/web4.jpg";
+import d1 from "./DemoClips/successfulsignin.mp4";
+import d2 from "./DemoClips/passwordreset.mp4";
+import d3 from "./DemoClips/emailinuse.mp4";
+import d4 from "./DemoClips/mainmenuboards.mp4";
+import d5 from "./DemoClips/creatingboard.mp4";
+import d6 from "./DemoClips/wishlistpreview.mp4";
 
 
 const Projects = () => {
@@ -58,33 +64,19 @@ const Projects = () => {
         			<Accordion.Header>Cross Platform Mobile App Development</Accordion.Header>
         				<Accordion.Body>
 							<Container>
+								<h2>App Name: Gift Me</h2>
 								<Row>
 									<Col>
-										<Card>
-											<Card.Body>
-												<Card.Text>
-													App Name: Gift Me
-												</Card.Text>
-											</Card.Body>
-										</Card>
-									</Col>
-									<Col>
-										<Card>
-											<Card.Body>
-												<Card.Text>
+										<Container className="app-description-container">
+											<p>
 												Created a Flutter app from scratch with Firebase integration for user authentication, enabling secure storage and management of user data. Developed a wish list application allowing users to create, populate, and share wish lists for special occasions such as birthdays, weddings, and college departures. 
-												</Card.Text>
-											</Card.Body>
-										</Card>
+											</p>
+										</Container>
 									</Col>
 								</Row>
 								<Row>
 									<Col>
-											<Card>
-												<Card.Body>
-													<Card.Text>Sketches</Card.Text>
-												</Card.Body>
-											</Card>
+											<h2>Sketches</h2>
 										<Row>
 											<Col><Image src={sImg1} rounded fluid onClick={() => handleImageClick(sImg1)} style={{cursor: 'pointer'}}/> </Col>
 										</Row>
@@ -96,30 +88,71 @@ const Projects = () => {
 										</Row>
 									</Col>
 									<Col>
-											<Card>
-												<Card.Body>
-													<Card.Text>App Demo Screenshots</Card.Text>
-												</Card.Body>
-											</Card>
+													<h2>App Demo Screenshots</h2>
 										<Row>
 											<Col><Image src={WA8} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA9} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA1O} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											
+											<Col><Image src={WA9} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>											
 										</Row>
 										<Row>
-											<Col><Image src={WA1} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA2} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											<Col><Image src={WA3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
-											
-										</Row>
-										<Row>
-											<Col><Image src={WA5} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											<Col><Image src={WA6} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											<Col><Image src={WA7} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											
 										</Row>
 									</Col>
+									<Row>
+											<Row>
+												<Container>
+													<h2>App Demos</h2>
+												</Container>
+											</Row>
+										<Col>
+											<Container>
+												<video
+                  									src={d1}
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														User encounters 'Welcome' message when manages to successfully sign up.
+													</CardBody>
+												</Card>
+											</Container>
+										</Col>
+										<Col>
+											<Container>
+												<video
+                  									src={d2} 
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														User resetting password; obtaining confirmation window.
+													</CardBody>
+												</Card>
+											</Container>
+										</Col>
+										<Col>
+											<Container>
+													<video
+                  									src={d3}
+                  									controls
+                  									style={{ width: '100%', borderRadius: '10px' }}
+                								/>
+												<Card>
+													<CardBody>
+														User thrown an error when trying to use an email that has already been used to sign up.
+													</CardBody>
+												</Card>
+												
+											</Container>
+										</Col>
+										
+									</Row>
+									<Row>
+										
+									</Row>
 								</Row>
 							</Container>
         				</Accordion.Body>
