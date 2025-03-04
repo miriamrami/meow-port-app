@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/meow-port-app/static/css/main.c74b1758.css",
-    "main.js": "/meow-port-app/static/js/main.85d8ba4d.js",
-    "static/media/rockefellerTower.jpg": "/meow-port-app/static/media/rockefellerTower.8e30132310790c44e955.jpg",
-    "static/media/tokyoTower.jpg": "/meow-port-app/static/media/tokyoTower.7674530185dc133b2cb3.jpg",
-    "static/media/miriamAtGHC.jpg": "/meow-port-app/static/media/miriamAtGHC.11b8b5b910b5344da2d1.jpg",
+    "main.css": "/meow-port-app/static/css/main.319c3ef7.css",
+    "main.js": "/meow-port-app/static/js/main.bac4ec57.js",
+    "static/media/mainmenuboards.mp4": "/meow-port-app/static/media/mainmenuboards.3d135aefb1d2f69a9b32.mp4",
+    "static/media/emailinuse.mp4": "/meow-port-app/static/media/emailinuse.02d0f8215b7cdb52496e.mp4",
     "static/media/wApp1.png": "/meow-port-app/static/media/wApp1.2abe1d1cd8f02be0cf6f.png",
     "static/media/wApp2.png": "/meow-port-app/static/media/wApp2.ea44d9b2479c17705863.png",
+    "static/media/creatingboard.mp4": "/meow-port-app/static/media/creatingboard.7513004bb59184806e56.mp4",
+    "static/media/successfulsignin.mp4": "/meow-port-app/static/media/successfulsignin.0d4344c442a3a0d48205.mp4",
+    "static/media/wishlistpreview.mp4": "/meow-port-app/static/media/wishlistpreview.cdb937c6f44d2abfc92c.mp4",
+    "static/media/passwordreset.mp4": "/meow-port-app/static/media/passwordreset.f0f7d646ed21168f02c0.mp4",
     "static/media/wApp3.png": "/meow-port-app/static/media/wApp3.6698b1670796740d8def.png",
     "static/media/miriamimg.jpg": "/meow-port-app/static/media/miriamimg.7170a98ac2e335c02f2b.jpg",
     "static/media/web1.jpg": "/meow-port-app/static/media/web1.61f68e1efa6370b8947a.jpg",
@@ -16,7 +19,6 @@
     "static/media/web3.jpg": "/meow-port-app/static/media/web3.602e676e531fed47a1ca.jpg",
     "static/media/web4.jpg": "/meow-port-app/static/media/web4.5286843fa5b280118071.jpg",
     "static/media/sketch1.png": "/meow-port-app/static/media/sketch1.ca342a6979293a05e996.png",
-    "static/media/osakaCastle.jpg": "/meow-port-app/static/media/osakaCastle.7e304b18d41c1f58f0c2.jpg",
     "static/media/kittybackground.jpg": "/meow-port-app/static/media/kittybackground.f020a13281dc5ed9964d.jpg",
     "static/media/bootstrap-icons.woff?": "/meow-port-app/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/wApp4.png": "/meow-port-app/static/media/wApp4.e096190a83cd60ec0320.png",
@@ -28,12 +30,14 @@
     "static/media/wApp8.png": "/meow-port-app/static/media/wApp8.14fa17aacbaadfcf77ac.png",
     "static/media/wApp11.png": "/meow-port-app/static/media/wApp11.bd7d3b6f1deec27fa150.png",
     "static/media/wApp1O.png": "/meow-port-app/static/media/wApp1O.3a4a1debc069f0d2f361.png",
+    "static/media/stoprightmeow.jpg": "/meow-port-app/static/media/stoprightmeow.3d331702c4f7bd3bad93.jpg",
+    "static/media/Miriam_Resume_.pdf": "/meow-port-app/static/media/Miriam_Resume_.6b4650a40e066e13c4ec.pdf",
     "index.html": "/meow-port-app/index.html",
-    "main.c74b1758.css.map": "/meow-port-app/static/css/main.c74b1758.css.map",
-    "main.85d8ba4d.js.map": "/meow-port-app/static/js/main.85d8ba4d.js.map"
+    "main.319c3ef7.css.map": "/meow-port-app/static/css/main.319c3ef7.css.map",
+    "main.bac4ec57.js.map": "/meow-port-app/static/js/main.bac4ec57.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74b1758.css",
-    "static/js/main.85d8ba4d.js"
+    "static/css/main.319c3ef7.css",
+    "static/js/main.bac4ec57.js"
   ]
 }
