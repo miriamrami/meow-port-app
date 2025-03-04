@@ -1,27 +1,41 @@
 import { Link } from "react-router-dom";
+import React, {useState} from 'react';
 import "./cssFiles//Projects.css";
-import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner} from "react-bootstrap";
-import WA1 from "./Demos/wApp1.png";
-import WA2 from "./Demos/wApp2.png";
-import WA3 from "./Demos/wApp3.png";
-import WA4 from "./Demos/wApp4.png";
-import WA5 from "./Demos/wApp5.png";
-import WA6 from "./Demos/wApp6.png";
-import WA7 from "./Demos/wApp7.png";
-import WA8 from "./Demos/wApp8.png";
-import WA9 from "./Demos/wApp9.png";
-import WA1O from "./Demos/wApp1O.png";
-import WA11 from "./Demos/wApp11.png";
-import sImg1 from "./Demos/sketch1.png";
-import sImg2 from "./Demos/sketch2.png";
-import sImg3 from "./Demos/sketch3.png";
-import wp1 from "./Demos/web1.jpg";
-import wp2 from "./Demos/web2.jpg";
-import wp3 from "./Demos/web3.jpg";
-import wp4 from "./Demos/web4.jpg";
+import { Navbar, Nav, Container, Row, Col, Accordion, Image, CardText, CardHeader, Card, Spinner, Modal, Button} from "react-bootstrap";
+import WA1 from "./DemoImages/wApp1.png";
+import WA2 from "./DemoImages/wApp2.png";
+import WA3 from "./DemoImages/wApp3.png";
+import WA4 from "./DemoImages/wApp4.png";
+import WA5 from "./DemoImages/wApp5.png";
+import WA6 from "./DemoImages/wApp6.png";
+import WA7 from "./DemoImages/wApp7.png";
+import WA8 from "./DemoImages/wApp8.png";
+import WA9 from "./DemoImages/wApp9.png";
+import WA1O from "./DemoImages/wApp1O.png";
+import WA11 from "./DemoImages/wApp11.png";
+import sImg1 from "./DemoImages/sketch1.png";
+import sImg2 from "./DemoImages/sketch2.png";
+import sImg3 from "./DemoImages/sketch3.png";
+import wp1 from "./DemoImages/web1.jpg";
+import wp2 from "./DemoImages/web2.jpg";
+import wp3 from "./DemoImages/web3.jpg";
+import wp4 from "./DemoImages/web4.jpg";
 
 
 const Projects = () => {
+
+	const [showModal, setShowModal] = useState(false);
+	const [selectedImage, setSelectedImage] = useState(null);
+
+	const handleImageClick = (image) => {
+		setSelectedImage(image);
+		setShowModal(true);
+	}
+
+	const handleCloseModal = () => {
+		setShowModal(false);
+		setSelectedImage(null);
+	}
 
 	return (
 	<body>
@@ -68,17 +82,17 @@ const Projects = () => {
 									<Col>
 											<Card>
 												<Card.Body>
-													<Card.Text>App Early Sketches</Card.Text>
+													<Card.Text>Sketches</Card.Text>
 												</Card.Body>
 											</Card>
 										<Row>
-											<Col><Image src={sImg1} rounded fluid/></Col>
+											<Col><Image src={sImg1} rounded fluid onClick={() => handleImageClick(sImg1)} style={{cursor: 'pointer'}}/> </Col>
 										</Row>
 										<Row>
-											<Col><Image src={sImg2} rounded fluid/></Col>
+											<Col><Image src={sImg2} rounded fluid onClick={() => handleImageClick(sImg2)} style={{cursor: 'pointer'}}/></Col>
 										</Row>
 										<Row>
-											<Col><Image src={sImg3} rounded fluid/></Col>
+											<Col><Image src={sImg3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 										</Row>
 									</Col>
 									<Col>
@@ -88,21 +102,21 @@ const Projects = () => {
 												</Card.Body>
 											</Card>
 										<Row>
-											<Col><Image src={WA8} rounded fluid/></Col>
-											<Col><Image src={WA9} rounded fluid/></Col>
-											<Col><Image src={WA1O} rounded fluid/></Col>
+											<Col><Image src={WA8} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA9} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA1O} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											
 										</Row>
 										<Row>
-											<Col><Image src={WA1} rounded fluid/></Col>
-											<Col><Image src={WA2} rounded fluid/></Col>
-											<Col><Image src={WA3} rounded fluid/></Col>
+											<Col><Image src={WA1} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA2} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											
 										</Row>
 										<Row>
-											<Col><Image src={WA5} rounded fluid/></Col>
-											<Col><Image src={WA6} rounded fluid/></Col>
-											<Col><Image src={WA7} rounded fluid/></Col>
+											<Col><Image src={WA5} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA6} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+											<Col><Image src={WA7} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 											
 										</Row>
 									</Col>
@@ -138,10 +152,10 @@ const Projects = () => {
 										<Card.Text >Screencaptures of the WIX Website </Card.Text>
 									</Card.Body>
 								</Card>
-								<Col><Image src={wp1} rounded fluid/></Col>
-								<Col><Image src={wp2} rounded fluid/></Col>
-								<Col><Image src={wp3} rounded fluid/></Col>
-								<Col><Image src={wp4} rounded fluid/></Col>
+								<Col><Image src={wp1} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp2} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp3} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
+								<Col><Image src={wp4} rounded fluid onClick={() => handleImageClick()} style={{cursor: 'pointer'}}/></Col>
 							</Row>
         				</Accordion.Body>
       			</Accordion.Item>
@@ -162,6 +176,13 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
     		</Accordion>
+
+		<Modal show={showModal} onHide={handleCloseModal} centered>
+			<Modal.Body>
+				{selectedImage && <Image src={selectedImage} fluid/>}
+			</Modal.Body>
+		</Modal>
+
 		</Container>
 
 		<Container className="footer-container"fluid>
