@@ -260,34 +260,35 @@ const Projects = () => {
         			<Accordion.Header>WIX Web Page</Accordion.Header>
         				<Accordion.Body>
 							<Row>
-								<Col>
-									<Card>
-										<Card.Body>
-											<CardHeader>Click the link below to check out my project!</CardHeader>
-											<CardText></CardText>
-											<Card.Link href="https://mtramirez4.wixsite.com/mysite-3" target="_blank">My Cat-licious Website</Card.Link>
-										</Card.Body>
-									</Card>
-								</Col>
-								<Col>
-									<Card>
-										<Card.Body>
-											<CardText> This WIX website was a project that I had to create during my freshman year of college for my Rhetoric & Writing Studies course.</CardText>
-										</Card.Body>
-									</Card>
-								</Col>
+								<Container>
+									<h2>Rhetoric & Writing Studies Course Final Project</h2>
+								</Container>
+								<Row>
+									<Container>
+											<p> This WIX website was a project that I had to create during my freshman year of college for my Rhetoric & Writing Studies course.</p>
+									</Container>
+								</Row>
+								
 							</Row>
+
 							<Row>
-								<Card>
-									<Card.Body>
-										<Card.Text >Screencaptures of the WIX Website </Card.Text>
-									</Card.Body>
-								</Card>
+								<Container>
+										<h2>Screencaptures of the WIX Website </h2>
+								</Container>
 								<Col><Image src={wp1} rounded fluid onClick={() => handleImageClick(wp1)} style={{cursor: 'pointer'}}/></Col>
 								<Col><Image src={wp2} rounded fluid onClick={() => handleImageClick(wp2)} style={{cursor: 'pointer'}}/></Col>
 								<Col><Image src={wp3} rounded fluid onClick={() => handleImageClick(wp3)} style={{cursor: 'pointer'}}/></Col>
 								<Col><Image src={wp4} rounded fluid onClick={() => handleImageClick(wp4)} style={{cursor: 'pointer'}}/></Col>
+							
 							</Row>
+							<Row>
+									<Container>
+										<h2>Feel free to check out my website by clicking the link right below</h2>
+										
+										<Card.Link href="https://mtramirez4.wixsite.com/mysite-3" target="_blank">Miriam's cat themed website</Card.Link>
+										
+									</Container>
+								</Row>
         				</Accordion.Body>
       			</Accordion.Item>
 				  <Accordion.Item eventKey="2">
