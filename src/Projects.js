@@ -291,7 +291,7 @@ const Projects = () => {
 								</Row>
         				</Accordion.Body>
       			</Accordion.Item>
-				  <Accordion.Item eventKey="2">
+				<Accordion.Item eventKey="2">
         			<Accordion.Header>Portfolio Website</Accordion.Header>
         				<Accordion.Body>
 							<Spinner animation="grow" variant="info" size="sm"/>
@@ -300,11 +300,23 @@ const Projects = () => {
         				</Accordion.Body>
       			</Accordion.Item>
       			<Accordion.Item eventKey="3">
-        			<Accordion.Header>Project #4</Accordion.Header>
+        			<Accordion.Header>Blog Website</Accordion.Header>
         				<Accordion.Body>
 							<Spinner animation="grow" variant="info" size="sm"/>
 							Work in progress  
 							<Spinner animation="grow" variant="info" size="sm" />
+        				</Accordion.Body>
+      			</Accordion.Item>
+				<Accordion.Item eventKey="4">
+        			<Accordion.Header>Fortune/Readings Website</Accordion.Header>
+        				<Accordion.Body>
+							<Spinner animation="grow" variant="info" size="sm"/>
+							Site still in progress  
+							<Spinner animation="grow" variant="info" size="sm"/>
+							<Container>
+								<h2>Feel free to check out my website by clicking the link right below</h2>
+								<Card.Link href="https://miriamrami.github.io/fortune-teller/" target="_blank">Random Fortune/Reading Site</Card.Link>		
+							</Container>
         				</Accordion.Body>
       			</Accordion.Item>
     		</Accordion>
