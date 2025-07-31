@@ -32,12 +32,12 @@ const AboutMe = () => {
 				<tr>
 					<td>Neurodiagnostics Medical P.C.</td>
 					<td>Front Desk Secretary</td>
-					<td>Aug 2024 - Current</td>
+					<td>Aug 2024 - July 2025</td>
 				</tr>
 				<tr>
 					<td>GU</td>
 					<td>Retail Associate</td>
-					<td>Nov 2024 - Current</td>
+					<td>Nov 2024 - July 2025</td>
 				</tr>
 				<tr>
 					<td>PACSUN</td>
